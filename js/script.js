@@ -1,15 +1,18 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const title = document.querySelector(".preferences__title");
-  const words = title.textContent.split(" ");
+const mainTitle = "Розробимо та узгодимо еколого-технічну документацію";
+const titleElement = document.getElementById('main-title');
 
-  title.innerHTML = words
-    .map((word, index) => `<span style="animation-delay:${index * 0.3}s">${word}</span> `)
-    .join(" ");
+    let i = 0;
+function typeWriter() {
 
-  const subtitle = document.querySelector(".subtitle");
-  subtitle.style.animationDelay = `${words.length * 0.3}s`;
+  if (i < mainTitle.length) {
+    titleElement.textContent += mainTitle.charAt(i);
+    i++;
+    setTimeout(typeWriter, 40);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    typeWriter();
+
 });
 
-function scrollToSection(id) {
-  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
-}

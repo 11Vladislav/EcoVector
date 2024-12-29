@@ -34,14 +34,45 @@
                 </button>
             </nav>
         </div>
+        <div class="mobile-menu is-hidden" data-mobile-menu>
+            <div class="container">
+                <button type="button" class="menu__close">
+                    <svg class="menu__close__btn" data-mobile-menu-close>
+                        <use href="./images/icons.svg#icon-close_mob_menu" width="19" height="19"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="./index.html" class="mobile-menu__link">Головна</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./portfolio.html" class="mobile-menu__link">Послуги</a>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./contacts.html" class="mobile-menu__link">Контакти</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu__bottom">
+                    <ul class="mobile-contacts__list">
+                        <li class="mobile-contacts__item">
+                            <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--big">+38 096 111 11
+                                11</a>
+                        </li>
+                        <li class="mobile-contacts__item">
+                            <a href="maito:info@devstudio.com" class="mobile-contacts__link">info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 <main>
     <section class="preferences">
         <div class="container">
             <div class="title__wrap">
-                <h1 class="preferences__title"><span class="accent__title">Розробимо та узгодимо
-                еколого-технічну документацію</span> для Вашого підприємства
+                <h1 class="preferences__title" id="main-title">
                 </h1>
+                <span class="normal">для Вашого підприємства</span>
             </div>
             <div class="subtitle__wrap">
                 <h2 class="subtitle">
@@ -58,6 +89,7 @@
         </div>
     </section>
 </main>
-    <script src="script.js"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
