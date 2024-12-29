@@ -356,11 +356,13 @@ template {
 }
 
 .title__wrap {
-  max-width: 220px;
-  margin: 0 auto;
+  max-width: 245px;
+  margin-left: 10%;
 }
 
 .preferences__title {
+  margin-top: -25px;
+  margin-left: 25px;
   font-size: 25px;
   font-weight: 400;
   color: #6f491f;
@@ -394,11 +396,13 @@ template {
 .subtitle__wrap {
   margin-top: 80px;
   margin: 0 auto;
-  max-width: 220px;
+  max-width: 245px;
 }
 
 .subtitle {
   color: #875825;
+  margin-left: 25px;
+  margin-bottom: 25px;
   font-weight: 700;
   font-size: 21px;
   line-height: 2;
@@ -406,9 +410,10 @@ template {
 }
 
 .book__img {
-  margin-top: -20px;
+  margin-top: 20px;
   max-width: 150px;
-  margin-left: auto;
+  margin-right: auto;
+  rotate: 180deg;
 }
 @media screen and (min-width: 1200px) {
   .book__img {
@@ -419,7 +424,7 @@ template {
 .arrow__down {
   position: absolute;
   width: 50px;
-  left: 10px;
-  bottom: 10px;
+  right: 10px;
+  bottom: 5px;
   background-color: transparent;
 }/*# sourceMappingURL=main.css.map */
