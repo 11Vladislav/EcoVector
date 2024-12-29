@@ -3,8 +3,8 @@
     background-image: url(../images/background-sceen-1.png);
     background-size: cover;
     background-repeat: no-repeat; 
-    height: fit-content;
-    padding-top: 20px;
+    height: 100vh;
+    padding-top: 110px;
 }
 
 .title__wrap{
@@ -13,7 +13,7 @@
 }
 
 .preferences__title{
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 400;
     color: $title-color;
     line-height: 1.5;
@@ -33,11 +33,12 @@
 .subtitle{
     color: $subtitle-color;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 2;
 }
 
 .book__img{
-    max-width: 220px;
+    margin-top: 30px;
+    max-width: 150px;
     margin-left: auto;
 }
