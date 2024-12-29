@@ -351,8 +351,6 @@ template {
   background-image: url(../images/background-sceen-1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  width: 100vw;
   height: -moz-fit-content;
   height: fit-content;
   padding-top: 20px;
@@ -367,7 +365,7 @@ template {
   font-size: 20px;
   font-weight: 400;
   color: #6f491f;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .accent__title {

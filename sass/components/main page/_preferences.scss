@@ -2,9 +2,7 @@
     position: relative;
     background-image: url(../images/background-sceen-1.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100vw;
+    background-repeat: no-repeat; 
     height: fit-content;
     padding-top: 20px;
 }
@@ -18,7 +16,7 @@
     font-size: 20px;
     font-weight: 400;
     color: $title-color;
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .accent__title{
