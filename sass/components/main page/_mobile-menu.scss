@@ -1,0 +1,26 @@
+.menu__open{
+  display: block;
+  margin-left: auto;
+  background-color: transparent;
+  fill: $alt-text-color;
+  border: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+    &:hover,
+    &:focus {
+        fill: $accent-hover-color;
+    }
+    @media screen and (min-width: 768px) {
+        display: none;
+    }    
+}
+
+.menu__open__btn{
+    width: 32px;
+    height: 24px;
+        &:hover,
+        &:focus {
+            fill: $accent-hover-color;
+        }
+}
