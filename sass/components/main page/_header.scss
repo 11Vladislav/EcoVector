@@ -10,11 +10,12 @@
 .nav {
     display: flex;
     align-items: center;
+    max-height: 100px;
 }
 
 
 .logo__image{
-    max-width: 200px;
+    max-width: 160px;
 }
 
 .nav__list{
