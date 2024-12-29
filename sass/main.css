@@ -365,6 +365,7 @@ template {
   font-weight: 400;
   color: #6f491f;
   line-height: 1.5;
+  animation: fadeIn 1s ease-in-out forwards;
 }
 
 .accent__title {
@@ -372,6 +373,24 @@ template {
   color: #6f491f;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeInWord {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .subtitle__wrap {
   margin-top: 80px;
   margin: 0 auto;
@@ -383,6 +402,7 @@ template {
   font-weight: 700;
   font-size: 21px;
   line-height: 2;
+  animation: fadeIn 3s ease-in-out forwards;
 }
 
 .book__img {
@@ -394,4 +414,12 @@ template {
   .book__img {
     display: none;
   }
+}
+
+.arrow__down {
+  position: absolute;
+  width: 50px;
+  left: 10px;
+  bottom: 10px;
+  background-color: transparent;
 }/*# sourceMappingURL=main.css.map */
