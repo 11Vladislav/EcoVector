@@ -5,17 +5,17 @@
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     padding-top: 20px;
 }
 
 .title__wrap{
-    max-width: 360px;
+    max-width: 320px;
     margin: 0 auto;
 }
 
 .preferences__title{
-    font-size: 26px;
+    font-size: 20px;
     font-weight: 400;
     color: $title-color;
     line-height: 2;
@@ -29,13 +29,13 @@
 .subtitle__wrap{
     margin-top: 80px;
     margin: 0 auto;
-    max-width: 360px;;
+    max-width: 320px;;
 }
 
 .subtitle{
     color: $subtitle-color;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 2;
 }
 
