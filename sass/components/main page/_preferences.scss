@@ -1,21 +1,21 @@
 .preferences{
     position: relative;
-    background-image: url(../../../images/background-sceen-1.png);
+    background-image: url(./../../../images/background-sceen-1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
-    height: 155vh;
+    height: 125vh;
     padding-top: 50px;
 }
 
 .title__wrap{
-    max-width: 400px;
+    max-width: 360px;
     margin: 0 auto;
 }
 
 .preferences__title{
-    font-size: 46px;
+    font-size: 36px;
     font-weight: 400;
     color: $title-color;
     line-height: 2;
@@ -29,18 +29,17 @@
 .subtitle__wrap{
     margin-top: 80px;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 360px;;
 }
 
 .subtitle{
     color: $subtitle-color;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 2;
 }
 
 .book__img{
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    max-width: 340px;
+    margin-left: auto;
 }
