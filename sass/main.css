@@ -352,7 +352,7 @@ template {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  padding-top: 120px;
+  padding-top: 100px;
 }
 
 .title__wrap {
@@ -361,7 +361,7 @@ template {
 }
 
 .preferences__title {
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 400;
   color: #6f491f;
   line-height: 1.5;
@@ -381,7 +381,7 @@ template {
 .subtitle {
   color: #875825;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 2;
 }
 
