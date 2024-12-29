@@ -351,7 +351,7 @@ template {
   background-image: url(../images/background-sceen-1.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 95vh;
+  height: 94vh;
   padding-top: 100px;
 }
 
@@ -361,7 +361,7 @@ template {
 }
 
 .preferences__title {
-  font-size: 24px;
+  font-size: 25px;
   font-weight: 400;
   color: #6f491f;
   line-height: 1.5;
@@ -381,7 +381,7 @@ template {
 .subtitle {
   color: #875825;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 21px;
   line-height: 2;
 }
 
