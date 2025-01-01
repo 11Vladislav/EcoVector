@@ -1,20 +1,24 @@
-  document.addEventListener('DOMContentLoaded', () => {
-            const items = document.querySelectorAll('.chart-item');
+function animateNumbers() {
+            const counters = document.querySelectorAll('.number');
 
-            items.forEach(item => {
-                const percent = parseInt(item.getAttribute('data-percent'));
-                const percentLabel = item.querySelector('.number');
-               
+            counters.forEach(counter => {
+                const target = +counter.getAttribute('data-target');
+                let current = 0;
 
-                let currentPercent = 0;
-                const interval = setInterval(() => {
-                    if (currentPercent >= percent) {
-                        clearInterval(interval);
+                const increment = target / 100;
+
+                const updateCounter = () => {
+                    current += increment;
+                    if (current < target) {
+                        counter.textContent = `${Math.ceil(current)}+`;
+                        requestAnimationFrame(updateCounter);
                     } else {
-                        currentPercent++;
-                        percentLabel.textContent = `${currentPercent}+`;
-                      
+                        counter.textContent = `${target}+`;
                     }
-                }, 50); // Adjust speed by modifying this value
+                };
+
+                updateCounter();
             });
-        });
+        }
+
+        window.addEventListener('load', animateNumbers);
