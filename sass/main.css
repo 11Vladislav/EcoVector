@@ -441,11 +441,11 @@ template {
 
 .preferences {
   position: relative;
-  background-image: url(../images/background-sceen-1.png);
+  background-image: url(../images/background-sceen-1-1.png);
   background-size: cover;
   background-repeat: no-repeat;
   height: 94vh;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 
 .title__wrap {
@@ -454,7 +454,7 @@ template {
   align-items: baseline;
   flex-wrap: wrap;
   max-width: 220px;
-  margin-left: 16%;
+  margin-left: 10%;
 }
 
 .preferences__title {
