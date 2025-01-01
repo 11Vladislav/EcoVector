@@ -544,8 +544,8 @@ template {
 }
 
 .box:nth-child(1) {
-  bottom: 310px;
-  left: 280px;
+  bottom: 305px;
+  left: 275px;
 }
 
 .box:nth-child(2) {
@@ -580,5 +580,5 @@ template {
 .descr {
   margin-top: 5px;
   color: #6f491f;
-  font-size: 16px;
+  font-size: 15px;
 }/*# sourceMappingURL=main.css.map */
