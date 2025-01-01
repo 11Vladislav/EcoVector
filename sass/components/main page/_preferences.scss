@@ -94,22 +94,3 @@
         background-color: $main-color;
     }
  }
-
-//  @keyframes spin {
-//      0% {
-//          transform: rotate(0deg);
-//      }
-
-//      100% {
-//          transform: rotate(360deg);
-//      }
-//     }     
-
-
-.arrow__down{
-    position: absolute;
-    width: 50px;
-    right: 10px;
-    bottom: 5px;
-    background-color: transparent;
-}
