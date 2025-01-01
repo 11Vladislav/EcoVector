@@ -265,7 +265,7 @@ template {
 .nav {
   display: flex;
   align-items: center;
-  max-height: 100px;
+  max-height: 80px;
 }
 
 .logo__image {
@@ -512,8 +512,8 @@ template {
 .pulse {
   position: absolute;
   cursor: pointer;
-  bottom: 10%;
-  right: 20px;
+  bottom: 25%;
+  right: 40px;
   background: #875825;
   border-radius: 50%;
   width: 50px;
