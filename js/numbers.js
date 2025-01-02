@@ -4,7 +4,6 @@ function animateNumbers() {
             counters.forEach(counter => {
                 const target = +counter.getAttribute('data-target');
                 let current = 0;
-
                 const increment = target / 100;
 
                 const updateCounter = () => {

@@ -20,6 +20,7 @@ ul {
 
 a {
   text-decoration: none;
+  background-color: transparent;
 }
 
 h1,
@@ -81,10 +82,12 @@ address {
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 main {
@@ -509,12 +512,20 @@ template {
   }
 }
 
+.fa-phone {
+  color: #fff;
+}
+.fa-phone:hover, .fa-phone:focus {
+  color: #ffe8da;
+  scale: 1.2;
+}
+
 .pulse {
   position: absolute;
   cursor: pointer;
   bottom: 25%;
   right: 40px;
-  background: #875825;
+  background: #745f4e;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -523,9 +534,6 @@ template {
   line-height: 55px;
   color: #fff;
   font-size: 40px;
-}
-.pulse:hover, .pulse:focus {
-  background-color: #745f4e;
 }
 
 .statistics {
@@ -581,4 +589,90 @@ template {
   margin-top: 5px;
   color: #6f491f;
   font-size: 15px;
+}
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+}
+
+.sidebar {
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: transform 0.5s ease-in-out;
+}
+
+.sidebar > div {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.slider-name {
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: -30px;
+  margin-left: 10px;
+}
+
+.main-slide {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 35%;
+  width: 65%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.main-slide > div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+
+button {
+  background-color: #fff;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 15px;
+}
+
+button:hover {
+  color: #222;
+}
+
+button:focus {
+  outline: none;
+}
+
+.slider-container .controls button {
+  position: absolute;
+  left: 35%;
+  top: 60%;
+  z-index: 100;
+}
+
+.slider-container .controls .down-button {
+  transform: translateX(-100%);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.slider-container .controls .up-button {
+  transform: translateY(-100%);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
 }/*# sourceMappingURL=main.css.map */
