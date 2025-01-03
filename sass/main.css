@@ -704,6 +704,7 @@ button:focus {
   margin-top: 20px;
   display: flex;
   gap: 20px;
+  padding-bottom: 50px;
 }
 
 .about-team {
