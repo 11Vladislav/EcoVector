@@ -1,22 +1,21 @@
 .team{
-    width: 100vh;
     height: 100vw;
     padding: 50px 0;
 }
 
 .our-team{
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 600;
     color: $heading-color;
     text-transform: uppercase;
 }
 
 .team-pic-blur{
-    max-width: 350px;
+    max-width: 250px;
 }
 
 .team-pic{
-    max-width: 350px;
+    max-width: 250px;
     margin-top: 20px;
     margin-left: 20%;
 }
@@ -29,15 +28,18 @@
 }
 
 .about-team{
-    font-size: 26px;
+    margin-top: 25px;
+    margin-right: 15px;
+    font-size: 18px;
     font-weight: 700;
     color: $main-color;
     max-width: 250px;
+    text-align: left;
     animation: animateTransform 4s ease-in-out forwards;;
 }
 
 .team-lead-pic{
-    max-width: 350px;
+    max-width: 250px;
     margin-top: -50px;
 }
 
