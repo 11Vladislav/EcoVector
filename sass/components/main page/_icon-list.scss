@@ -1,8 +1,7 @@
 
 .icon-screen{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
+
     background-image: url(../images/background-sceen-2.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,12 +10,12 @@
 }
 
 .icon-list{
-   padding-top: 70%;
+   padding-top: 35%;
     display: flex;
     flex-direction: column;
     gap: 90px;
     max-width: 250px;
-    margin-left: 5%;
+    margin-left: 15%;
 }
 
 .icon-item{
