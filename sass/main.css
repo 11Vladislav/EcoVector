@@ -857,6 +857,7 @@ button:focus {
 .footer {
   margin-top: 100px;
   background-color: #745f4e;
+  max-height: 80px;
 }
 
 .footer-container {
