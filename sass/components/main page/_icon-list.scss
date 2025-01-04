@@ -1,0 +1,46 @@
+
+.icon-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../images/background-sceen-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 94vh;
+}
+
+.icon-list{
+   padding-top: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    max-width: 250px;
+    margin-left: 5%;
+}
+
+.icon-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+
+.document-icon{
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 80px;
+    height: 80px;
+    fill: $alt-text-color;
+    background-color: $subtitle-color;
+    border: 4px solid $alt-text-color;
+    border-radius: 50%;
+}
+
+.icon-title{
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: 500;
+    color: $alt-text-color;
+}

@@ -704,7 +704,6 @@ button:focus {
   margin-top: 20px;
   display: flex;
   gap: 20px;
-  padding-bottom: 50px;
 }
 
 .about-team {
@@ -732,4 +731,48 @@ button:focus {
     transform: translateX(25px);
     opacity: 1;
   }
+}
+.icon-screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(../images/background-sceen-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 94vh;
+}
+
+.icon-list {
+  padding-top: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+  max-width: 250px;
+  margin-left: 5%;
+}
+
+.icon-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.document-icon {
+  padding-top: 10px;
+  padding-left: 10px;
+  width: 80px;
+  height: 80px;
+  fill: #fff;
+  background-color: #875825;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.icon-title {
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
