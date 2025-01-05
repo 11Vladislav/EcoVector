@@ -647,7 +647,7 @@ template {
 .main-slide > div {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: cover;
+  background-position: center;
   height: 100%;
   width: 100%;
 }
