@@ -61,18 +61,16 @@
 }
 
 .language-select {
+    font-weight: 600;
     margin-top: 10px;
     margin-left: auto;
     padding: 10px;
     font-size: 16px;
-    border-radius: 5px;
-    background-color: $main-color;
-}
-
-.option{
-    font-weight: 700;
+    background-color: transparent;
+    border-color: $main-color;
     color: $chocolate-color;
 }
+
 
 // .language-toggle {
 //     display: flex;

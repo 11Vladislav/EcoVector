@@ -319,16 +319,13 @@ template {
 }
 
 .language-select {
+  font-weight: 600;
   margin-top: 10px;
   margin-left: auto;
   padding: 10px;
   font-size: 16px;
-  border-radius: 5px;
-  background-color: #745f4e;
-}
-
-.option {
-  font-weight: 700;
+  background-color: transparent;
+  border-color: #745f4e;
   color: #423731;
 }
 
@@ -650,7 +647,7 @@ template {
 .main-slide > div {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: cover;
   height: 100%;
   width: 100%;
 }
