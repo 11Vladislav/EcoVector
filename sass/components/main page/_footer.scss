@@ -1,7 +1,7 @@
 .footer{
-    margin-top: 100px;
+    margin-top: 20px;
     background-color: $main-color;
-    max-height: 80px;
+    max-height: 140px;
 }
 
 .footer-container{
@@ -13,18 +13,20 @@
 }
 
 .footer-logo{
-    max-width: 160px;
+    width: 160px;
+    height: 100px;
    
 }
 
 .footer-list{
     display: flex;
-    gap: 20px;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
 }
 
 .footer-item{
-    padding: 10px;
+    padding: 5px;
 }
 
 .footer-contacts-link{
