@@ -748,8 +748,8 @@ button:focus {
   background-image: url(../images/background-sceen-2.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
-  margin-top: 360px;
+  height: 140vh;
+  margin-top: 370px;
 }
 
 .icon-list {
@@ -793,15 +793,15 @@ button:focus {
   background-image: url(../images/7-3-5.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 140vh;
+  height: 100vh;
 }
 
 .text-block {
   position: absolute;
   max-width: 250px;
   max-height: 150px;
-  bottom: 80px;
-  right: 0;
+  bottom: 0px;
+  left: 0px;
   background-color: #f8e2c9;
   opacity: 0.6;
 }
