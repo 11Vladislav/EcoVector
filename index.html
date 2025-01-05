@@ -7,23 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./sass/main.css" />
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
 </head>
 <body>
     <header class="header">
@@ -46,6 +30,15 @@
                         </a>
                     </li>
                 </ul>
+                <div class="language-toggle">
+                    <span class="flag ua"></span>
+                    <label class="switch">
+                        <input type="checkbox" id="languageSwitch">
+                        <span class="switcher"></span>
+                    </label>
+                    <span class="flag uk"></span>
+                </div>
+
                 <button type="button" class="menu__open">
                     <svg class="menu__open__btn" data-mobile-menu-open>
                         <use href="./images/icons.svg#icon-mob-menu-btn" width="32" height="24"></use>
@@ -236,16 +229,16 @@
                 Безкоштовна консультація фахівця
             </h2>
                 <form id="contactForm" class="form-container">
-                    <input class="input" type="text" id="name" name="name" placeholder="Ваше имя" required>
+                    <input class="input" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
                     <span class="error" id="nameError"></span>
 
                     <input class="input" type="text" id="phone" name="phone" placeholder="Ваш номер телефона" required>
                     <span class="error" id="phoneError"></span>
   
-                    <input class="input" type="email" id="email" name="email" placeholder="Ваш емейл" required>
+                    <input class="input" type="email" id="email" name="email" placeholder="Ваш email" required>
                     <span class="error" id="emailError"></span>
    
-                    <textarea class="text-area" id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                    <textarea class="text-area" id="message" name="message" placeholder="Ваше повідомлення" required></textarea>
                     <span class="error" id="messageError"></span>
 
                     <button type="submit">Відправити</button>
