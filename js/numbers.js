@@ -33,7 +33,7 @@
                 const updateCounter = () => {
                     value += increment;
                     if (value >= target) {
-                        counter.textContent = target;
+                        counter.textContent = `${target}+`;
                     } else {
                         counter.textContent = Math.ceil(value);
                         requestAnimationFrame(updateCounter);
