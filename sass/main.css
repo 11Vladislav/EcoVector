@@ -523,7 +523,7 @@ template {
 }
 
 .fa-phone {
-  color: #fff;
+  color: #f0ec36;
 }
 .fa-phone:hover, .fa-phone:focus {
   color: #ffe8da;
@@ -535,7 +535,7 @@ template {
   cursor: pointer;
   bottom: 25%;
   right: 40px;
-  background: #745f4e;
+  background: #423731;
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -722,7 +722,7 @@ button:focus {
   margin-right: 15px;
   font-size: 18px;
   font-weight: 700;
-  color: #745f4e;
+  color: #423731;
   max-width: 250px;
   text-align: left;
   animation: animateTransform 4s ease-in-out forwards;
@@ -798,12 +798,12 @@ button:focus {
 
 .text-block {
   position: absolute;
-  max-width: 250px;
+  width: 100%;
   max-height: 150px;
   bottom: 0px;
   left: 0px;
   background-color: #f8e2c9;
-  opacity: 0.6;
+  opacity: 0.85;
 }
 
 .consult-descr {
@@ -881,7 +881,6 @@ button:focus {
 }
 
 .footer-logo {
-  width: 160px;
   height: 100px;
 }
 

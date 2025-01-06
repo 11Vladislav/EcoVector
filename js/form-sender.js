@@ -12,7 +12,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
   // Имя: только буквы
   if (!/^[a-zA-Zа-яА-Я\s]+$/.test(name)) {
     isValid = false;
-    document.getElementById("nameError").textContent = "Ім'я може мати тільки літери.";
+    document.getElementById("nameError").textContent = "Ім'я може містити тільки літери.";
   } else {
     document.getElementById("nameError").textContent = "";
   }
@@ -20,7 +20,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
   // Телефон: только цифры
   if (!/^\d+$/.test(phone)) {
     isValid = false;
-    document.getElementById("phoneError").textContent = "Телефон повинен мати тільки цифри.";
+    document.getElementById("phoneError").textContent = "Телефон повинен містити тільки цифри.";
   } else {
     document.getElementById("phoneError").textContent = "";
   }
@@ -49,7 +49,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        access_key: "925a343a-2bbe-4727-ad52-ead72b4c3f95",
+        access_key: "2ad14e2f-a367-49d0-905d-1268b191e6e9",
         name,
         phone,
         email,
