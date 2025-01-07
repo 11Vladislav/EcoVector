@@ -7,41 +7,50 @@ document.getElementById("contactForm").addEventListener("submit", async function
   const message = document.getElementById("message").value.trim();
 
   // Validation
-  let isValid = true;
+  // let isValid = true;
 
   // Имя: только буквы
   if (!/^[a-zA-Zа-яА-Я\s]+$/.test(name)) {
-    isValid = false;
-    document.getElementById("nameError").textContent = "Ім'я може містити тільки літери.";
-  } else {
-    document.getElementById("nameError").textContent = "";
+    // isValid = false;
+    Notiflix.Notify.failure("Ім'я може містити тільки літери.")
+    return;
+  //   document.getElementById("nameError").textContent = "Ім'я може містити тільки літери.";
+  // } else {
+  //   document.getElementById("nameError").textContent = "";
   }
 
   // Телефон: только цифры
-  if (!/^\d+$/.test(phone)) {
-    isValid = false;
-    document.getElementById("phoneError").textContent = "Телефон повинен містити тільки цифри.";
-  } else {
-    document.getElementById("phoneError").textContent = "";
+  if (!/^\d{10,}$/.test(phone)) {
+    // isValid = false;
+    Notiflix.Notify.failure("Телефон повинен містити не менше 10 цифр.")
+    return;
+  //   document.getElementById("phoneError").textContent = "Телефон повинен містити не менше 10 цифр.";
+  // } else {
+  //   document.getElementById("phoneError").textContent = "";
   }
 
   // Email: проверка формата
-  if (!/\S+@\S+\.\S+/.test(email)) {
-    isValid = false;
-    document.getElementById("emailError").textContent = "Введіть корректний email.";
-  } else {
-    document.getElementById("emailError").textContent = "";
-  }
+  if (!/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/.test(email)) {
+    // isValid = false;
+    Notiflix.Notify.failure("Введіть корректний email!");
+    return;
+  }  
+  //   document.getElementById("emailError").textContent = "Введіть корректний email.";
+  // } else {
+  //   document.getElementById("emailError").textContent = "";
+  // }
 
   // Сообщение: не пустое
-  if (!message) {
-    isValid = false;
-    document.getElementById("messageError").textContent = "Повідомлення не може бути порожнім.";
-  } else {
-    document.getElementById("messageError").textContent = "";
+  if (message.length < 1) {
+    // isValid = false;
+    Notiflix.Notify.failure("Повідомлення не може бути порожнім.");
+    return;
+  //   document.getElementById("messageError").textContent = "Повідомлення не може бути порожнім.";
+  // } else {
+  //   document.getElementById("messageError").textContent = "";
   }
 
-  if (!isValid) return;
+  // if (!isValid) return;
 
   // Отправка данных через Web3Forms
   try {
@@ -58,7 +67,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     });
 
     if (response.ok) {
-      Notiflix.Notify.success("Повідомлення успешно відправлено!");
+      Notiflix.Notify.success("Повідомлення успішно відправлено!");
       document.getElementById("contactForm").reset();
     } else {
       Notiflix.Notify.failure("Помилка відправки. Спробуйте пізніше.");

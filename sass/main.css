@@ -1021,6 +1021,11 @@ button:focus {
   background-color: #875825;
 }
 
+.error {
+  color: red;
+  font-size: 700;
+}
+
 .book-img {
   margin-top: 20px;
 }
