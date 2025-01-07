@@ -1,6 +1,10 @@
 .team{
     height: 100vw;
     padding-top: 50px;
+    padding-bottom: 50px;
+    @media screen and (min-width: $desktop) {
+        height: fit-content;
+    }
 }
 
 .our-team{
@@ -8,16 +12,27 @@
     font-weight: 600;
     color: $heading-color;
     text-transform: uppercase;
+    @media screen and (min-width: $desktop) {
+        text-align: center;
+        font-size: 26px;
+    }
 }
 
 .team-pic-blur{
     max-width: 250px;
+    @media screen and (min-width: $desktop) {
+        max-width: 100%;
+    }
 }
 
 .team-pic{
     max-width: 250px;
     margin-top: 20px;
     margin-left: 20%;
+    @media screen and (min-width: $desktop) {
+        max-width: 430px;
+        margin-top: -30px;
+    }
 }
 
 .team-lead-block{
@@ -25,6 +40,10 @@
     margin-top: 20px;
     display: flex;
     gap: 20px;
+    @media screen and (min-width: $desktop) {
+        max-width: 100%;
+        gap: 0;
+    }
   
 }
 
@@ -36,12 +55,22 @@
     color: $main-color;
     max-width: 250px;
     text-align: left;
-    animation: animateTransform 4s ease-in-out forwards;;
+    animation: animateTransform 4s ease-in-out forwards;
+    @media screen and (min-width: $desktop) {
+        font-size: 26px;
+        max-width: 500px;
+        font-weight: 500;
+    }
 }
 
 .team-lead-pic{
     max-width: 250px;
     margin-top: -50px;
+    @media screen and (min-width: 1200px) {
+        max-width: 50%;
+        margin-top: -550px;
+        margin-left: 130px;
+    }
 }
 
 @keyframes animateTransform {

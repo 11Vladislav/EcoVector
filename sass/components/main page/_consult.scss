@@ -4,6 +4,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
+    @media screen and (min-width: $desktop) {
+        background-image: none;
+        height: fit-content;
+    }
 }
 
 .text-block{
@@ -15,6 +19,7 @@
     background-color: $alt-background-color;
     opacity: 0.85;
     text-align: center;
+ 
    
 }
 
@@ -24,5 +29,8 @@
     font-weight: 700;
     color: $title-color;
     padding: 15px;
-   
+    @media screen and (min-width: $desktop) {
+        margin-top: 50px;
+        font-size: 22px;
+    }
 }

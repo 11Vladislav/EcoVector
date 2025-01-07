@@ -297,7 +297,7 @@ template {
 .nav__item:first-child {
   margin-left: 88px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .nav__item:first-child {
     margin-left: 93px;
   }
@@ -460,6 +460,21 @@ template {
   height: 94vh;
   padding-top: 70px;
 }
+@media screen and (min-width: 768px) {
+  .preferences {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    background-image: url(../images/background-desktop-sceen-1.png);
+  }
+}
+
+.pref-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
 
 .title__wrap {
   display: flex;
@@ -469,12 +484,27 @@ template {
   max-width: 220px;
   margin-left: 10%;
 }
+@media screen and (min-width: 768px) {
+  .title__wrap {
+    max-width: 500px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .title__wrap {
+    margin-top: 100px;
+  }
+}
 
 .preferences__title {
   font-size: 25px;
   font-weight: 700;
   color: #6f491f;
   line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .preferences__title {
+    font-size: 32px;
+  }
 }
 
 .normal {
@@ -516,9 +546,20 @@ template {
   margin-right: auto;
   rotate: 180deg;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .book__img {
     display: none;
+  }
+}
+
+.desktop-img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .desktop-img {
+    display: block;
+    max-width: 500px;
+    height: auto;
   }
 }
 
@@ -691,6 +732,13 @@ button:focus {
 .team {
   height: 100vw;
   padding-top: 50px;
+  padding-bottom: 50px;
+}
+@media screen and (min-width: 768px) {
+  .team {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 .our-team {
@@ -699,9 +747,20 @@ button:focus {
   color: #538135;
   text-transform: uppercase;
 }
+@media screen and (min-width: 768px) {
+  .our-team {
+    text-align: center;
+    font-size: 26px;
+  }
+}
 
 .team-pic-blur {
   max-width: 250px;
+}
+@media screen and (min-width: 768px) {
+  .team-pic-blur {
+    max-width: 100%;
+  }
 }
 
 .team-pic {
@@ -709,12 +768,24 @@ button:focus {
   margin-top: 20px;
   margin-left: 20%;
 }
+@media screen and (min-width: 768px) {
+  .team-pic {
+    max-width: 430px;
+    margin-top: -30px;
+  }
+}
 
 .team-lead-block {
   max-width: 480px;
   margin-top: 20px;
   display: flex;
   gap: 20px;
+}
+@media screen and (min-width: 768px) {
+  .team-lead-block {
+    max-width: 100%;
+    gap: 0;
+  }
 }
 
 .about-team {
@@ -727,10 +798,24 @@ button:focus {
   text-align: left;
   animation: animateTransform 4s ease-in-out forwards;
 }
+@media screen and (min-width: 768px) {
+  .about-team {
+    font-size: 26px;
+    max-width: 500px;
+    font-weight: 500;
+  }
+}
 
 .team-lead-pic {
   max-width: 250px;
   margin-top: -50px;
+}
+@media screen and (min-width: 1200px) {
+  .team-lead-pic {
+    max-width: 50%;
+    margin-top: -550px;
+    margin-left: 130px;
+  }
 }
 
 @keyframes animateTransform {
@@ -751,6 +836,14 @@ button:focus {
   height: 100vh;
   margin-top: 370px;
 }
+@media screen and (min-width: 768px) {
+  .icon-screen {
+    background-image: url(../images/background-desktop-sceen-2.png);
+    margin-top: 0;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
 
 .icon-list {
   padding-top: 35%;
@@ -760,6 +853,14 @@ button:focus {
   gap: 40px;
   max-width: 250px;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .icon-list {
+    flex-direction: row;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+  }
 }
 
 .icon-item {
@@ -786,6 +887,13 @@ button:focus {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
+  max-width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .icon-title {
+    font-size: 26px;
+    max-width: 250px;
+  }
 }
 
 .consult {
@@ -794,6 +902,13 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .consult {
+    background-image: none;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
 }
 
 .text-block {
@@ -814,13 +929,43 @@ button:focus {
   color: #6f491f;
   padding: 15px;
 }
+@media screen and (min-width: 768px) {
+  .consult-descr {
+    margin-top: 50px;
+    font-size: 22px;
+  }
+}
 
 .form-screen {
   margin-top: 50px;
   height: 100vh;
 }
+@media screen and (min-width: 768px) {
+  .form-screen {
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+.container-form {
+  display: flex;
+  justify-content: space-between;
+}
 
 .form-header {
+  font-size: 24px;
+  font-weight: 600;
+  color: #423731;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .form-header {
+    display: none;
+  }
+}
+
+.form-headers {
+  margin-bottom: 15px;
   font-size: 24px;
   font-weight: 600;
   color: #423731;
@@ -834,6 +979,12 @@ button:focus {
   margin-top: 40px;
   padding: 20px;
   max-width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    max-width: 700px;
+    margin-top: 0;
+  }
 }
 
 .form-container label {
@@ -850,8 +1001,14 @@ button:focus {
   border: 1px solid #ccc;
   border-radius: 5px;
 }
+@media screen and (min-width: 768px) {
+  .input,
+  .text-area {
+    width: 500px;
+  }
+}
 
-.form-container button {
+.form-button {
   background-color: #6f491f;
   color: #fff;
   border: none;
@@ -866,6 +1023,11 @@ button:focus {
 
 .book-img {
   margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .book-img {
+    margin-top: 0;
+  }
 }
 
 .footer {
@@ -892,12 +1054,44 @@ button:focus {
   justify-content: center;
   margin-left: 10px;
 }
+@media screen and (min-width: 768px) {
+  .footer-list {
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
 
 .footer-item {
   padding: 5px;
+}
+@media screen and (min-width: 768px) {
+  .footer-item {
+    padding: 15px;
+  }
 }
 
 .footer-contacts-link {
   color: #fff;
   font-size: 14px;
+}
+@media screen and (min-width: 768px) {
+  .footer-contacts-link {
+    font-size: 18px;
+  }
+}
+
+.btn {
+  position: fixed;
+  right: 15%;
+  bottom: 30px;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #f0ece6;
+  color: #423731;
+}
+
+.btn-hide {
+  display: none;
 }/*# sourceMappingURL=main.css.map */

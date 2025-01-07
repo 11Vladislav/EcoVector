@@ -20,7 +20,7 @@
 
 .nav__list{
   display: none;
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $desktop) {
     display: flex;
     font-weight: 500;
     font-size: 16px;
@@ -38,7 +38,7 @@
 .nav__item:first-child {
     margin-left: 88px;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
         margin-left: 93px;
     }
 }    

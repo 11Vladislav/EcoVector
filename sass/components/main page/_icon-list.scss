@@ -6,6 +6,11 @@
     background-repeat: no-repeat;
     height: 100vh;
     margin-top: 370px;
+    @media screen and (min-width: $desktop) {
+        background-image: url(../images/background-desktop-sceen-2.png);
+        margin-top: 0;
+        height: fit-content;
+    }
 }
 
 .icon-list{
@@ -16,6 +21,13 @@
     gap: 40px;
     max-width: 250px;
    margin: 0 auto;
+    @media screen and (min-width: $desktop) {
+        flex-direction: row;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: baseline;
+        
+    }
 }
 
 .icon-item{
@@ -24,6 +36,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+
  
 }
 
@@ -43,4 +56,9 @@
     font-size: 22px;
     font-weight: 500;
     color: $alt-text-color;
+    max-width: 100px;
+    @media screen and (min-width: $desktop) {
+        font-size: 26px;
+        max-width: 250px;
+    }
 }

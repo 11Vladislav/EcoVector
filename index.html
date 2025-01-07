@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./sass/main.css" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 </head>
 <body>
     <header class="header">
@@ -84,7 +84,7 @@
     </header>
 <main>
     <section class="preferences">
-        <div class="container">
+        <div class="container pref-container">
             <div class="title__wrap">
                 <h1 class="preferences__title" id="main-title">
                 </h1>
@@ -94,11 +94,14 @@
                         максимум нашої роботи
                     </h2>
             </div>
-
+                <div class="desktop-img">
+                    <img src="./images/desktop-img.jpg" alt="working">
+                </div>
         </div>
         <div class="book__img">
             <img src="./images/books.png" alt="books">
         </div>
+
         <div class="pulse">
             <a href="tel:+380961111111"><i class="fa fa-phone"></i></a>
         </div>
@@ -234,11 +237,14 @@
         </div>
     </section>
     <section class="form-screen">
-        <div class="container">
+        <div class="container container-form">
             <h2 class="form-header">
                 Безкоштовна консультація фахівця
             </h2>
                 <form id="contactForm" class="form-container">
+                    <h2 class="form-headers">
+                        Безкоштовна консультація фахівця
+                    </h2>
                     <input class="input" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
                     <span class="error" id="nameError"></span>
 
@@ -250,9 +256,9 @@
    
                     <textarea class="text-area" id="message" name="message" placeholder="Ваше повідомлення" required></textarea>
                     <span class="error" id="messageError"></span>
-
-                    <button type="submit">Відправити</button>
+                    <button class="form-button" type="submit">Відправити</button>
                 </form>
+                
             <div class="book-img">
                 <img src="./images/11-1.jpg" alt="bookcases">
             </div>
@@ -273,6 +279,7 @@
                 </li>
             </ul>
         </div>
+        <button type="submit" class="fas fa-arrow-up btn"></button>
     </footer>    
 </main>
     <script src="https://cdn.jsdelivr.net/npm/notiflix"></script>
