@@ -887,7 +887,6 @@ button:focus {
   font-size: 22px;
   font-weight: 500;
   color: #fff;
-  max-width: 100px;
 }
 @media screen and (min-width: 768px) {
   .icon-title {
@@ -947,9 +946,13 @@ button:focus {
   }
 }
 
-.container-form {
-  display: flex;
-  justify-content: space-between;
+@media screen and (min-width: 768px) {
+  .container-form {
+    display: flex;
+    justify-content: space-between;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
 }
 
 .form-header {
@@ -965,11 +968,17 @@ button:focus {
 }
 
 .form-headers {
+  display: none;
   margin-bottom: 15px;
   font-size: 24px;
   font-weight: 600;
   color: #423731;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .form-headers {
+    display: block;
+  }
 }
 
 .form-container {
@@ -982,8 +991,12 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .form-container {
-    max-width: 700px;
     margin-top: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    max-width: 900px;
   }
 }
 
