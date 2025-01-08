@@ -10,6 +10,38 @@
     }
 }
 
+.counsult-container{
+    @media screen and (min-width: $desktop) {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 50px;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.consult-img{
+    display: none;
+    @media screen and (min-width: $desktop) {
+        display: block;
+        max-width: 500px;
+    }
+}
+
+.consult-text{
+    display: none;
+    @media screen and (min-width: $desktop) {
+        display: block;
+        max-width: 550px;
+        max-height: fit-content;
+        background-color: $alt-background-color;
+        opacity: 0.85;
+        text-align: center;
+        border-radius: 5px;
+    }
+}
+
 .text-block{
     position: absolute;
     width: 100%;
@@ -19,7 +51,9 @@
     background-color: $alt-background-color;
     opacity: 0.85;
     text-align: center;
- 
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
    
 }
 
@@ -30,7 +64,8 @@
     color: $title-color;
     padding: 15px;
     @media screen and (min-width: $desktop) {
-        margin-top: 50px;
-        font-size: 22px;
+        font-size: 26px;
+        font-weight: 500;
+        line-height: 1.7;
     }
 }

@@ -491,7 +491,7 @@ template {
 }
 @media screen and (min-width: 1200px) {
   .title__wrap {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
@@ -910,6 +910,43 @@ button:focus {
   }
 }
 
+@media screen and (min-width: 768px) {
+  .counsult-container {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+.consult-img {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .consult-img {
+    display: block;
+    max-width: 500px;
+  }
+}
+
+.consult-text {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .consult-text {
+    display: block;
+    max-width: 550px;
+    max-height: -moz-fit-content;
+    max-height: fit-content;
+    background-color: #f8e2c9;
+    opacity: 0.85;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+
 .text-block {
   position: absolute;
   width: 100%;
@@ -919,6 +956,11 @@ button:focus {
   background-color: #f8e2c9;
   opacity: 0.85;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .text-block {
+    display: none;
+  }
 }
 
 .consult-descr {
@@ -930,8 +972,9 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .consult-descr {
-    margin-top: 50px;
-    font-size: 22px;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.7;
   }
 }
 
@@ -1086,6 +1129,8 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .footer-item {
+    display: flex;
+    align-items: baseline;
     padding: 15px;
   }
 }
@@ -1097,6 +1142,9 @@ button:focus {
 @media screen and (min-width: 768px) {
   .footer-contacts-link {
     font-size: 18px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: baseline;
   }
 }
 
@@ -1112,4 +1160,12 @@ button:focus {
 
 .btn-hide {
   display: none;
+}
+
+.connect__icons {
+  padding: 0;
+  height: 16px;
+  width: 16px;
+  margin-right: 10px;
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */

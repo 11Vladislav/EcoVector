@@ -34,6 +34,8 @@
 .footer-item{
     padding: 5px;
     @media screen and (min-width: $desktop) {
+        display: flex;
+        align-items: baseline;
         padding: 15px;
      }
 }
@@ -43,6 +45,9 @@
     font-size: 14px;
     @media screen and (min-width: $desktop) { 
         font-size: 18px;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: baseline;
     }
 }
 
@@ -58,4 +63,12 @@
 
 .btn-hide {
     display: none;
+}
+
+.connect__icons {
+    padding: 0;
+    height: 16px;
+    width: 16px;
+    margin-right: 10px;
+    fill: currentColor;
 }
