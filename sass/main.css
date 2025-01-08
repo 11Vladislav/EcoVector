@@ -1125,25 +1125,26 @@ button:focus {
 }
 
 .footer-item {
+  display: flex;
   padding: 5px;
 }
 @media screen and (min-width: 768px) {
   .footer-item {
-    display: flex;
     align-items: baseline;
     padding: 15px;
   }
 }
 
 .footer-contacts-link {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 300px;
   color: #fff;
   font-size: 14px;
 }
 @media screen and (min-width: 768px) {
   .footer-contacts-link {
     font-size: 18px;
-    display: flex;
-    flex-direction: row-reverse;
     align-items: baseline;
   }
 }
@@ -1166,6 +1167,6 @@ button:focus {
   padding: 0;
   height: 16px;
   width: 16px;
-  margin-right: 10px;
   fill: currentColor;
+  margin-right: 10px;
 }/*# sourceMappingURL=main.css.map */
