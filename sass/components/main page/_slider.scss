@@ -40,13 +40,59 @@
     transition: transform 0.5s ease-in-out;
 }
 
-.main-slide>div {
+.slide{
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
-    width: 100%;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        width: 100%;
 }
+
+
+#slide1{
+    background-image: url(../images/1-1.jpg);
+}
+
+#slide2{
+    background-image: url(../images/2-3.jpg);
+}
+
+#slide3 {
+    background-image: url(../images/6-3.jpg);
+}
+
+#slide4{
+    background-image: url(../images/5-3-1.png);
+}
+
+#slide5{
+    background-image: url(../images/4-3.png);
+}
+
+#slide6{
+    background-image: url(../images/5-3-2-1.png);
+}
+
+
+@media screen and (min-width: $desktop) {
+    #slide1{
+        background-image: url(../images/1-1-desktop.jpg);
+    }
+    #slide2{
+        background-image: url(../images/2-1-desktop.jpg);
+    }
+    #slide3{
+        background-image: url(../images/6-3-desktop.jpg);
+    }
+    #slide4{
+        background-image: url(../images/5-1-desktop.jpg);
+    }
+    #slide6{
+        background-image: url(../images/5-3-2-1-desktop.jpg);
+    }
+}
+
+
 
 button {
     background-color: #fff;

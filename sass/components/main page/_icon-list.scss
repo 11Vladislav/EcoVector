@@ -4,29 +4,31 @@
     background-image: url(../images/background-sceen-2.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    background-position: center;
     margin-top: 370px;
     @media screen and (min-width: $desktop) {
         background-image: url(../images/background-desktop-sceen-2.png);
         margin-top: 0;
-        height: fit-content;
+      
     }
 }
 
 .icon-list{
-   padding-top: 35%;
-   padding-bottom: 35%;
+   padding-top: 100px;
+   padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     gap: 40px;
-    max-width: 250px;
-   margin: 0 auto;
+//     max-width: 250px;
+//    margin: 0 auto;
     @media screen and (min-width: $desktop) {
+        padding-top: 20%;
+        padding-bottom: 20%;
         flex-direction: row;
         max-width: 100%;
         justify-content: space-between;
         align-items: baseline;
-        
+      
     }
 }
 
@@ -43,8 +45,8 @@
 .document-icon{
     padding-top: 10px;
     padding-left: 10px;
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     fill: $alt-text-color;
     background-color: $subtitle-color;
     border: 4px solid $alt-text-color;

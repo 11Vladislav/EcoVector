@@ -9,8 +9,7 @@
 .container-form{
     @media screen and (min-width: $desktop) {
         display: flex;
-        justify-content: space-between;
-        max-width: fit-content;
+        justify-content: space-around;
     }
 
 

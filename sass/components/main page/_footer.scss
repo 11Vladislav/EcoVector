@@ -24,7 +24,7 @@
     justify-content: center;
     margin-left: 10px;
     @media screen and (min-width: $desktop) {
-        width: 70%;
+        width: 80%;
         flex-direction: row;
         justify-content: space-between;
         align-items: baseline;
@@ -48,7 +48,7 @@
     color: $alt-text-color;
     font-size: 14px;
     @media screen and (min-width: $desktop) { 
-        font-size: 18px;
+        font-size: 16px;
         align-items: baseline;
     }
 }
@@ -61,6 +61,15 @@
     border-radius: 10px;
     background-color: $phone-color;
     color: $chocolate-color;
+        &:hover,
+        &:focus {
+            background-color: $heading-color;
+            color: $alt-text-color;
+            transition: color $duration $timing-function;
+        }
+    @media screen and (min-width: $desktop) {
+        right: 5%;
+    }
 }
 
 .btn-hide {
