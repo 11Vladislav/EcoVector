@@ -843,6 +843,8 @@ button:focus {
 }
 
 .about-block {
+  display: flex;
+  flex-wrap: wrap;
   max-width: 250px;
 }
 @media screen and (min-width: 1200px) {
@@ -853,7 +855,7 @@ button:focus {
 
 .about-team {
   margin-top: 25px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   color: #745f4e;
   max-width: 150px;
@@ -868,7 +870,7 @@ button:focus {
 }
 
 .team-lead-pic {
-  max-width: 250px;
+  max-width: 200px;
   margin-top: -200px;
   margin-left: auto;
 }
@@ -1085,7 +1087,7 @@ button:focus {
 @media screen and (min-width: 768px) {
   .container-form {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 }
 
