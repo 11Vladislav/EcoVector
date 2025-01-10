@@ -831,9 +831,11 @@ button:focus {
 }
 
 .team-lead-block {
-  max-width: 350px;
+  max-width: 450px;
+  display: flex;
+  justify-content: space-around;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .team-lead-block {
     max-width: 780px;
     margin-top: 20px;
@@ -845,7 +847,7 @@ button:focus {
 .about-block {
   max-width: 250px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .about-block {
     max-width: 100%;
   }
@@ -868,12 +870,22 @@ button:focus {
 }
 
 .team-lead-pic {
-  max-width: 200px;
-  margin-top: -220px;
+  max-width: 250px;
+  margin-top: -20px;
   margin-left: auto;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .team-lead-pic {
+    display: none;
+  }
+}
+
+.team-lead-pic-deskt {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .team-lead-pic-deskt {
+    display: block;
     max-width: 500px;
     margin-top: -600px;
     margin-left: 58%;
