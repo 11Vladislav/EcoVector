@@ -66,8 +66,9 @@
     color: $title-color;
     padding: 25px;
     @media screen and (min-width: $desktop) {
-        font-size: 26px;
+        font-size: 23px;
         font-weight: 500;
         line-height: 1.7;
+        margin-bottom: 15px;
     }
 }
