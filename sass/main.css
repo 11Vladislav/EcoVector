@@ -1166,7 +1166,8 @@ button:focus {
 }
 
 .form-container button:hover {
-  background-color: #875825;
+  background-color: #538135;
+  color: #fff;
 }
 
 .error {
