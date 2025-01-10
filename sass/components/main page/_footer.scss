@@ -47,6 +47,11 @@
     max-width: 300px;
     color: $alt-text-color;
     font-size: 14px;
+    &:hover,
+    &:focus {
+        color: $accent-hover-color;
+        transition: color $duration $timing-function;
+    }
     @media screen and (min-width: $desktop) { 
         font-size: 16px;
         align-items: baseline;

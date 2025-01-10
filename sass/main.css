@@ -328,6 +328,11 @@ template {
   background-color: transparent;
   border-color: #745f4e;
   color: #423731;
+  cursor: pointer;
+}
+.language-select:hover, .language-select:focus {
+  color: #fff;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu__open, .menu__close {
@@ -825,39 +830,52 @@ button:focus {
   }
 }
 
+.team-lead-block {
+  max-width: 350px;
+}
+@media screen and (min-width: 768px) {
+  .team-lead-block {
+    max-width: 780px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+}
+
 .about-block {
-  max-width: 470px;
+  max-width: 250px;
 }
 @media screen and (min-width: 768px) {
   .about-block {
-    max-width: 50%;
+    max-width: 100%;
   }
 }
 
 .about-team {
   margin-top: 25px;
-  margin-left: 15px;
   font-size: 18px;
   font-weight: 500;
   color: #745f4e;
+  max-width: 150px;
   text-align: left;
   animation: animateTransform 4s ease-in-out forwards;
 }
 @media screen and (min-width: 768px) {
   .about-team {
     font-size: 21px;
+    max-width: 100%;
   }
 }
 
 .team-lead-pic {
-  max-width: 400px;
-  margin-top: -180px;
+  max-width: 250px;
+  margin-top: -200px;
   margin-left: auto;
 }
 @media screen and (min-width: 1200px) {
   .team-lead-pic {
     max-width: 500px;
-    margin-top: -550px;
+    margin-top: -600px;
     margin-left: 58%;
   }
 }
@@ -878,7 +896,7 @@ button:focus {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  margin-top: 370px;
+  margin-top: 400px;
 }
 @media screen and (min-width: 768px) {
   .icon-screen {
@@ -914,14 +932,36 @@ button:focus {
 }
 
 .document-icon {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .document-icon {
+    display: block;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 100px;
+    height: 100px;
+    fill: #fff;
+    background-color: #875825;
+    border: 4px solid #fff;
+    border-radius: 50%;
+  }
+}
+
+.document-icon-mob {
   padding-top: 10px;
   padding-left: 10px;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   fill: #fff;
   background-color: #875825;
   border: 4px solid #fff;
   border-radius: 50%;
+}
+@media screen and (min-width: 768px) {
+  .document-icon-mob {
+    display: none;
+  }
 }
 
 .icon-title {
@@ -1182,6 +1222,10 @@ button:focus {
   max-width: 300px;
   color: #fff;
   font-size: 14px;
+}
+.footer-contacts-link:hover, .footer-contacts-link:focus {
+  color: #c3c3c3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 @media screen and (min-width: 768px) {
   .footer-contacts-link {

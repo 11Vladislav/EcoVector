@@ -69,6 +69,12 @@
     background-color: transparent;
     border-color: $main-color;
     color: $chocolate-color;
+    cursor: pointer;
+    &:hover,
+    &:focus {
+            color: $alt-text-color;
+            transition: color $duration $timing-function;
+    }
 }
 
 

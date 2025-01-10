@@ -36,35 +36,45 @@
     }
 }
 
+.team-lead-block{
+    max-width: 350px;
+    @media screen and (min-width: $desktop) {
+        max-width: 780px;
+        margin-top: 20px;
+        display: flex;
+        gap: 20px;
+    } 
+}
 
 .about-block{
-    max-width: 470px;
-    @media screen and (min-width: $desktop) {
-        max-width: 50%;
+    
+    max-width: 250px;
+   @media screen and (min-width: $desktop) { 
+        max-width: 100%;
     }
 }
 
 .about-team{
     margin-top: 25px;
-    margin-left: 15px;
     font-size: 18px;
     font-weight: 500;
     color: $main-color;
-    
+    max-width: 150px;
     text-align: left;
     animation: animateTransform 4s ease-in-out forwards;
     @media screen and (min-width: $desktop) {
         font-size: 21px;
+        max-width: 100%;
     }
 }
 
 .team-lead-pic{
-    max-width: 400px;
-    margin-top: -180px;
+    max-width: 250px;
+    margin-top: -200px;
     margin-left: auto;
     @media screen and (min-width: 1200px) {
         max-width: 500px;
-        margin-top: -550px;
+        margin-top: -600px;
         margin-left: 58%;
     }
 }
