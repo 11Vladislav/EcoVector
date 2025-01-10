@@ -832,8 +832,6 @@ button:focus {
 
 .team-lead-block {
   max-width: 450px;
-  display: flex;
-  justify-content: space-around;
 }
 @media screen and (min-width: 1200px) {
   .team-lead-block {
@@ -871,7 +869,7 @@ button:focus {
 
 .team-lead-pic {
   max-width: 250px;
-  margin-top: -20px;
+  margin-top: -200px;
   margin-left: auto;
 }
 @media screen and (min-width: 768px) {
