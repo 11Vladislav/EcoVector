@@ -9,7 +9,8 @@
 .container-form{
     @media screen and (min-width: $desktop) {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        padding: 100px 0;
     }
 
 
@@ -27,7 +28,7 @@
 
 .form-headers{
     display: none;
-    margin-bottom: 15px;
+    margin-bottom: 40px;
     font-size: 24px;
     font-weight: 600;
     color: $chocolate-color;
@@ -46,13 +47,11 @@
     max-width: 400px;
     @media screen and (min-width: $desktop) {
         margin-top: 0;
-
+        max-width: 900px;
     }
 
-    @media screen and (min-width: $desktop) {
-        max-width: 900px;
-        
-  }
+   
+
     // @media screen and (min-width: $desktop) {
     //     flex-direction: row;
     //     max-width: 500px;
@@ -64,7 +63,7 @@
     
 .form-container label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     font-weight: bold;
 }
     
@@ -107,6 +106,7 @@
 // }
     
 .form-button {
+    margin-top: 30px;
     background-color: $title-color;
     color: $alt-text-color;
     border: none;
