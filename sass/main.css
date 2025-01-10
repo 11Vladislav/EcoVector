@@ -860,6 +860,7 @@ button:focus {
   color: #745f4e;
   max-width: 150px;
   text-align: left;
+  margin-left: -10px;
   animation: animateTransform 4s ease-in-out forwards;
 }
 @media screen and (min-width: 768px) {

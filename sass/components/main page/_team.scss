@@ -62,6 +62,7 @@
     color: $main-color;
     max-width: 150px;
     text-align: left;
+    margin-left: -10px;
     animation: animateTransform 4s ease-in-out forwards;
     @media screen and (min-width: $desktop) {
         font-size: 21px;
