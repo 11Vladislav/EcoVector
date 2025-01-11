@@ -99,6 +99,21 @@
     }
 }
 
+.mobile-dropdown{
+
+}
+
+.mobile-submenu.hidden{
+    display: none;
+}
+
+.mobile-submenu{
+    background: $main-color;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
 .mobile-contacts__list {
     margin-bottom: 64px;
 }

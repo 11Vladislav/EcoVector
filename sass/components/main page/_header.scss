@@ -56,20 +56,21 @@
 
     &:hover,
     &:focus {
-        color: $accent-hover-color;
-        fill: $accent-hover-color;
+        color: $heading-color;
+        fill: $heading-color;
         transition: color $duration $timing-function;
     }
 }
 
 .submenu{
-        display: none;
-        position: absolute;
-        top: 100%;
-        background-color: #444;
-        list-style: none;
-        padding: 10px 0;
-        border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: $main-color;
+    list-style: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-left: -100px;
 
 }
 
@@ -80,6 +81,12 @@
 .submenu__link{
     display: block;
     padding: 8px 20px;
+    color: $alt-text-color;
+        &:hover,
+        &:focus {
+            color: $heading-color;
+            transition: color $duration $timing-function;
+        }
 }
 
 .dropdown:hover .submenu {
@@ -87,7 +94,7 @@
 }
 
 .submenu a:hover {
-    background-color: #555;
+    background-color:$main-color;
 }
 
 .language-select {

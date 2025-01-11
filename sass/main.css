@@ -316,8 +316,8 @@ template {
   color: #fff;
 }
 .nav__link:hover, .nav__link:focus {
-  color: #c3c3c3;
-  fill: #c3c3c3;
+  color: #538135;
+  fill: #538135;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -325,10 +325,11 @@ template {
   display: none;
   position: absolute;
   top: 100%;
-  background-color: #444;
+  background-color: #745f4e;
   list-style: none;
   padding: 10px 0;
   border-radius: 5px;
+  margin-left: -100px;
 }
 
 .submenu__item {
@@ -338,6 +339,11 @@ template {
 .submenu__link {
   display: block;
   padding: 8px 20px;
+  color: #fff;
+}
+.submenu__link:hover, .submenu__link:focus {
+  color: #538135;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .dropdown:hover .submenu {
@@ -345,7 +351,7 @@ template {
 }
 
 .submenu a:hover {
-  background-color: #555;
+  background-color: #745f4e;
 }
 
 .language-select {
@@ -455,6 +461,17 @@ template {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.mobile-submenu.hidden {
+  display: none;
+}
+
+.mobile-submenu {
+  background: #745f4e;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
 .mobile-contacts__list {
   margin-bottom: 64px;
 }
@@ -552,6 +569,7 @@ template {
 }
 
 .subtitle {
+  margin-top: 15px;
   color: #875825;
   margin-left: 34px;
   margin-bottom: 25px;
