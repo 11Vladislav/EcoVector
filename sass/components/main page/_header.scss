@@ -62,7 +62,7 @@
     }
 }
 
-.dropdown-menu__list{
+.submenu{
         display: none;
         position: absolute;
         top: 100%;
@@ -73,20 +73,20 @@
 
 }
 
-.dropdown-menu__item{
+.submenu__item{
     margin: 0;
 }
 
-.dropdown-menu__link{
+.submenu__link{
     display: block;
     padding: 8px 20px;
 }
 
-.dropdown:hover .dropdown-menu__list {
+.dropdown:hover .submenu {
     display: block;
 }
 
-.dropdown-menu__list a:hover {
+.submenu a:hover {
     background-color: #555;
 }
 

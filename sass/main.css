@@ -321,7 +321,7 @@ template {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.dropdown-menu__list {
+.submenu {
   display: none;
   position: absolute;
   top: 100%;
@@ -331,20 +331,20 @@ template {
   border-radius: 5px;
 }
 
-.dropdown-menu__item {
+.submenu__item {
   margin: 0;
 }
 
-.dropdown-menu__link {
+.submenu__link {
   display: block;
   padding: 8px 20px;
 }
 
-.dropdown:hover .dropdown-menu__list {
+.dropdown:hover .submenu {
   display: block;
 }
 
-.dropdown-menu__list a:hover {
+.submenu a:hover {
   background-color: #555;
 }
 
@@ -814,7 +814,7 @@ template {
 }
 
 #slide5 {
-  background-image: url(../images/4-3.png);
+  background-image: url(../images/4-3-1.png);
 }
 
 #slide6 {
@@ -833,6 +833,9 @@ template {
   }
   #slide4 {
     background-image: url(../images/5-1-desktop.jpg);
+  }
+  #slide5 {
+    background-image: url(../images/4-2-desktop.jpg);
   }
   #slide6 {
     background-image: url(../images/5-3-2-1-desktop.jpg);
