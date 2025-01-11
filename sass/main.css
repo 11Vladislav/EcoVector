@@ -631,7 +631,7 @@ template {
 }
 @media screen and (min-width: 768px) {
   .box {
-    max-width: 200px;
+    max-width: 175px;
     position: static;
   }
 }
@@ -675,8 +675,8 @@ template {
 }
 @media screen and (min-width: 768px) {
   .chart-item {
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
   }
 }
 
@@ -687,8 +687,8 @@ template {
 }
 @media screen and (min-width: 768px) {
   .number {
-    margin-top: 15px;
-    font-size: 40px;
+    margin-top: 25px;
+    font-size: 35px;
   }
 }
 
@@ -699,7 +699,7 @@ template {
 }
 @media screen and (min-width: 768px) {
   .descr {
-    font-size: 25px;
+    font-size: 22px;
   }
 }
 
@@ -760,6 +760,12 @@ template {
   background-position: center;
   height: 100%;
   width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .slide {
+    background-size: 80%;
+    background-position: left;
+  }
 }
 
 #slide1 {

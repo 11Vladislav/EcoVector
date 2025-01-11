@@ -46,6 +46,10 @@
         background-position: center;
         height: 100%;
         width: 100%;
+        @media screen and (min-width: $desktop) {
+            background-size: 80%;
+            background-position: left;
+        }
 }
 
 
@@ -59,6 +63,7 @@
 
 #slide3 {
     background-image: url(../images/6-3.jpg);
+   
 }
 
 #slide4{
@@ -83,6 +88,7 @@
     }
     #slide3{
         background-image: url(../images/6-3-desktop.jpg);
+        
     }
     #slide4{
         background-image: url(../images/5-1-desktop.jpg);
