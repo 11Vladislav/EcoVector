@@ -605,6 +605,21 @@ template {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+@media screen and (min-width: 768px) {
+  .statistics {
+    position: static;
+    margin-bottom: 250px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .stat-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 
 .box {
   display: flex;
@@ -614,10 +629,21 @@ template {
   max-width: 105px;
   position: absolute;
 }
+@media screen and (min-width: 768px) {
+  .box {
+    max-width: 200px;
+    position: static;
+  }
+}
 
 .box:nth-child(1) {
   bottom: 305px;
   left: 270px;
+}
+@media screen and (min-width: 768px) {
+  .box:nth-child(1) {
+    margin-bottom: 300px;
+  }
 }
 
 .box:nth-child(2) {
@@ -628,6 +654,11 @@ template {
 .box:nth-child(3) {
   bottom: 10px;
   left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .box:nth-child(3) {
+    margin-top: 300px;
+  }
 }
 
 .chart-item {
@@ -642,17 +673,43 @@ template {
   text-align: center;
   background-color: #ffe8da;
 }
+@media screen and (min-width: 768px) {
+  .chart-item {
+    width: 200px;
+    height: 200px;
+  }
+}
 
 .number {
   color: #745f4e;
   font-size: 30px;
   font-weight: 700;
 }
+@media screen and (min-width: 768px) {
+  .number {
+    margin-top: 15px;
+    font-size: 40px;
+  }
+}
 
 .descr {
   margin-top: 5px;
   color: #6f491f;
   font-size: 15px;
+}
+@media screen and (min-width: 768px) {
+  .descr {
+    font-size: 25px;
+  }
+}
+
+.arrow {
+  width: 100px;
+}
+@media screen and (min-width: 768px) {
+  .arrow {
+    width: 200px;
+  }
 }
 
 .slider-container {

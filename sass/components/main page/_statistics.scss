@@ -3,6 +3,19 @@
     height: 75vh;
     margin-top: 100px;
     margin-bottom: 100px;
+    @media screen and (min-width: $desktop) {
+        position: static; 
+        margin-bottom: 250px;
+    }
+}
+
+.stat-container{
+    @media screen and (min-width: $desktop) {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 
 .box{
@@ -12,11 +25,20 @@
     justify-content: space-around;
     max-width: 105px;
     position: absolute;
+    @media screen and (min-width: $desktop) {
+        max-width: 200px;
+        position: static;
+        
+    }
 }
 
 .box:nth-child(1) {
     bottom: 305px;
     left: 270px;
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 300px;
+    }
+
 }
 
 .box:nth-child(2){
@@ -27,6 +49,9 @@
 .box:nth-child(3) {
     bottom: 10px;
     left: 10px;
+    @media screen and (min-width: $desktop) {
+        margin-top: 300px;
+    }
 }
 
 .chart-item{
@@ -40,18 +65,34 @@
     border-radius: 10px;
     text-align: center;
     background-color: $box-color;
-   
+    @media screen and (min-width: $desktop) {
+        width: 200px;
+        height: 200px;
+    }
 }
 
 .number{
     color: $main-color;
     font-size: 30px;
     font-weight: 700;
+    @media screen and (min-width: $desktop) {
+        margin-top: 15px;
+        font-size: 40px;
+    }
 }
 
 .descr{
     margin-top: 5px;
     color: $title-color;
     font-size: 15px;
+    @media screen and (min-width: $desktop) {
+            font-size: 25px;
+        }
 }
 
+.arrow{
+    width: 100px;
+    @media screen and (min-width: $desktop) {
+        width: 200px;
+    }
+}
