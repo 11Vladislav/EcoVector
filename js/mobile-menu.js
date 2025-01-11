@@ -14,6 +14,22 @@
   }
 })();
 
+
+const mobileDropdown = document.querySelector(".mobile-dropdown > a");
+const mobileSubmenu = document.querySelector(".mobile-submenu");
+
+mobileDropdown.addEventListener("click", (e) => {
+  e.preventDefault();
+  mobileSubmenu.classList.toggle("hidden");
+});
+
+// Close dropdown if clicked outside
+document.addEventListener("click", (e) => {
+  if (!mobileDropdown.contains(e.target) && !mobileSubmenu.contains(e.target)) {
+    mobileSubmenu.classList.add("hidden");
+  }
+});
+
 const btnUp = {
   el: document.querySelector('.btn'),
   show() {

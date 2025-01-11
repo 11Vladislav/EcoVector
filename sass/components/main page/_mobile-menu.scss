@@ -1,6 +1,5 @@
 .menu__open{
   display: block;
-//   margin-left: auto;
   background-color: transparent;
   fill: $alt-text-color;
   border: 0;
@@ -41,8 +40,9 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        height: 85%;
-        justify-content: space-between;
+        height: 65%;
+        justify-content: space-around;
+        align-items: center;
     }
 
     &.is-hidden {
@@ -52,6 +52,9 @@
         transform: scale(0.5);
         transition: transform $duration $timing-function;
     }
+        @media screen and (min-width: $desktop) {
+            display: none;
+        }
 }
 
 .menu__close {
@@ -99,9 +102,6 @@
     }
 }
 
-.mobile-dropdown{
-
-}
 
 .mobile-submenu.hidden{
     display: none;
@@ -112,6 +112,14 @@
     margin-top: 10px;
     padding: 10px;
     border-radius: 4px;
+}
+
+.mobile-submenu>li{
+    padding: 15px;
+}
+
+.mobile-submenu>li>a{
+    color: $alt-text-color;
 }
 
 .mobile-contacts__list {

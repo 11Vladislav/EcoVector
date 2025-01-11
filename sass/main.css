@@ -269,9 +269,13 @@ template {
 .nav {
   display: flex;
   align-items: center;
-  position: sticky;
   z-index: 1000;
   height: 80px;
+}
+@media screen and (min-width: 768px) {
+  .nav {
+    position: sticky;
+  }
 }
 
 .logo__image {
@@ -411,8 +415,9 @@ template {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 85%;
-  justify-content: space-between;
+  height: 65%;
+  justify-content: space-around;
+  align-items: center;
 }
 .mobile-menu.is-hidden {
   opacity: 0;
@@ -420,6 +425,11 @@ template {
   pointer-events: none;
   transform: scale(0.5);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu {
+    display: none;
+  }
 }
 
 .menu__close {
@@ -470,6 +480,14 @@ template {
   margin-top: 10px;
   padding: 10px;
   border-radius: 4px;
+}
+
+.mobile-submenu > li {
+  padding: 15px;
+}
+
+.mobile-submenu > li > a {
+  color: #fff;
 }
 
 .mobile-contacts__list {

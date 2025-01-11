@@ -10,9 +10,12 @@
 .nav {
     display: flex;
     align-items: center;
-    position: sticky;
     z-index: 1000;
     height: 80px;
+    @media screen and (min-width: $desktop) {
+        position: sticky;
+    }
+
 }
 
 
