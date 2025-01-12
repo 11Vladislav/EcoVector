@@ -51,11 +51,13 @@
     font-size: 20px;
     font-weight: 600;
     }
-         &:hover,
-         &:focus {
+        &:hover,
+        &:focus {
             color: $heading-color;
             transition: color $duration $timing-function;
-         }
+            
+     }
+     
 }
 
 .form-screen-contacts{
@@ -73,6 +75,11 @@
     @media screen and (min-width: $desktop) {
         width: 32px;
         height: 32px;
+    }
+    &:hover,
+    &:focus {
+        fill: $heading-color;
+        transition: color $duration $timing-function;
     }
 }
 
