@@ -4,8 +4,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 70px;
     @media screen and (min-width: $desktop) {    
         max-width: 100%;
         flex-direction: row;
@@ -23,7 +22,7 @@
 }
 
 .contact-img{
-    max-width: 300px;
+    max-width: 420px;
     @media screen and (min-width: $desktop) {
       max-width: 900px;
     }

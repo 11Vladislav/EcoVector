@@ -1419,8 +1419,7 @@ button:focus {
   flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 70px;
 }
 @media screen and (min-width: 768px) {
   .wrapper {
@@ -1440,7 +1439,7 @@ button:focus {
 }
 
 .contact-img {
-  max-width: 300px;
+  max-width: 420px;
 }
 @media screen and (min-width: 768px) {
   .contact-img {
