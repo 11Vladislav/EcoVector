@@ -58,11 +58,11 @@
          }
 }
 
-.form-screen-contacts{
-    @media screen and (max-width: $desktop) {
-        height: 94vh;
-    }
-}
+// .form-screen-contacts{
+//     @media screen and (max-width: $desktop) {
+//         height: 94vh;
+//     }
+// }
 
 .connect-icons{
     fill: $main-color;
@@ -124,5 +124,8 @@
 }
 
 .cont-footer{
- margin-top: 0;
+    
+    @media screen and (min-width: $desktop) {
+     margin-top: 0;
+    }
 }
