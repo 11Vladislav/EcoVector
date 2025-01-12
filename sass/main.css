@@ -1524,12 +1524,15 @@ button:focus {
   #cont-form {
     flex-direction: row;
     padding-bottom: 50px;
+    align-items: self-start;
+    justify-content: start;
+    gap: 100px;
   }
 }
 
 .map-block {
-  max-height: 170px;
-  max-width: 300px;
+  max-height: 250px;
+  max-width: 400px;
 }
 @media screen and (min-width: 768px) {
   .map-block {
@@ -1541,10 +1544,10 @@ button:focus {
 .google-map {
   margin-top: 15px;
   border: none;
-  max-width: 900px;
-  max-height: 550px;
+  width: 400px;
+  height: 250px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .google-map {
     width: 600px;
     height: 480px;

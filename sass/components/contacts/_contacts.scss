@@ -95,13 +95,16 @@
     @media screen and (min-width: $desktop) {
         flex-direction: row;
         padding-bottom: 50px;
+        align-items: self-start;
+        justify-content: start;
+        gap: 100px;
     }
    
 }
 
 .map-block{
-    max-height: 170px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 400px;
     @media screen and (min-width: $desktop) {
         width: 600px;
         height: 480px;
@@ -111,9 +114,9 @@
 .google-map{
     margin-top: 15px;
     border: none;
-    max-width: 900px;
-    max-height: 550px;
-    @media screen and (min-width: $desktop) {
+    width: 400px;
+   height: 250px;
+    @media screen and (min-width: 1200px) {
         width: 600px;
         height: 480px;
         margin-top: 0;
@@ -123,11 +126,9 @@
 }
 
 .pre-footer-img{
-  
     @media screen and (min-width: $desktop) {
      display: block;
      max-width: 100%;
-
        overflow-y: hidden;
 
     }
