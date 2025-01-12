@@ -449,6 +449,7 @@ template {
 
 .mobile-menu__list {
   margin-top: 60px;
+  margin-bottom: 15px;
 }
 
 .mobile-menu__item {
@@ -483,7 +484,7 @@ template {
 }
 
 .mobile-submenu > li {
-  padding: 15px;
+  padding: 10px;
 }
 
 .mobile-submenu > li > a {
@@ -550,7 +551,7 @@ template {
   align-items: baseline;
   flex-wrap: wrap;
   max-width: 220px;
-  margin-left: 10%;
+  margin-right: 50px;
 }
 @media screen and (min-width: 768px) {
   .title__wrap {
@@ -931,6 +932,7 @@ button:focus {
   font-weight: 600;
   color: #538135;
   text-transform: uppercase;
+  margin-left: 15px;
 }
 @media screen and (min-width: 768px) {
   .our-team {
