@@ -58,11 +58,12 @@
          }
 }
 
-// .form-screen-contacts{
-//     @media screen and (max-width: $desktop) {
-//         height: 94vh;
-//     }
-// }
+.form-screen-contacts{
+    margin-bottom: 50px;
+    @media screen and (max-width: $desktop) {
+        height: 94vh;
+    }
+}
 
 .connect-icons{
     fill: $main-color;
@@ -113,7 +114,7 @@
 }
 
 .pre-footer-img{
-   display: none;
+  
     @media screen and (min-width: $desktop) {
      display: block;
      max-width: 100%;
@@ -124,7 +125,7 @@
 }
 
 .cont-footer{
-    margin-top: 300px;
+    // margin-top: 300px;
     @media screen and (min-width: $desktop) {
      margin-top: 0;
     }
