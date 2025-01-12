@@ -99,6 +99,15 @@
    
 }
 
+.map-block{
+    max-height: 170px;
+    max-width: 300px;
+    @media screen and (min-width: $desktop) {
+        width: 600px;
+        height: 480px;
+    }
+}
+
 .google-map{
     margin-top: 15px;
     border: none;
