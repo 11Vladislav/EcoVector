@@ -91,14 +91,14 @@
 
 .mobile-menu__link {
     font-weight: 500;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: $alt-text-color;
 
     &:hover,
     &:focus {
-        color: $accent-hover-color;
+        color: $heading-color;
         transition: color $duration $timing-function;
     }
 }
@@ -121,6 +121,11 @@
 
 .mobile-submenu>li>a{
     color: $alt-text-color;
+        &:hover,
+        &:focus {
+            color: $heading-color;
+            transition: color $duration $timing-function;
+        }
 }
 
 .mobile-contacts__list {
