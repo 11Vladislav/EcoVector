@@ -1485,7 +1485,8 @@ button:focus {
 }
 @media screen and (max-width: 768px) {
   .form-screen-contacts {
-    height: 94vh;
+    height: -moz-fit-content;
+    height: fit-content;
   }
 }
 
@@ -1530,7 +1531,7 @@ button:focus {
   margin-top: 15px;
   border: none;
   max-width: 900px;
-  height: 550px;
+  max-height: 550px;
 }
 @media screen and (min-width: 768px) {
   .google-map {
