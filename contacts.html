@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav">
+                <a class="logo" href="./index.html" lang="en">
+                    <img src="./images/ecovector-logo-brown-1.png" class="logo__image" alt="logo">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="./index.html">Головна
+                        </a>
+                    </li>
+                    <li class="nav__item dropdown">
+                        <a class="nav__link" href="#" id="services">Послуги
+                            <ul class="submenu">
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Дозвіл на викиди в атмосферу</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Дозвіл на спецводокористування</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Оцінка впливу на довкілля (ОВД)</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Дозвіл на оброблення відходів</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">План управління відходами</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Декларація про відходи</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Контакти
+                        </a>
+                    </li>
+                </ul>
+                <select id="languageSelect" class="language-select">
+                    <option value="ua" selected>УКР</option>
+                    <option value="en">ENG</option>
+                </select>
+    
+                <button type="button" class="menu__open">
+                    <svg class="menu__open__btn" data-mobile-menu-open>
+                        <use href="./images/icons.svg#icon-mob-menu-btn" width="32" height="24"></use>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        <div class="mobile-menu is-hidden" data-mobile-menu>
+            <div class="container">
+                <button type="button" class="menu__close">
+                    <svg class="menu__close__btn" data-mobile-menu-close>
+                        <use href="./images/icons.svg#icon-close_mob_menu" width="19" height="19"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="./index.html" class="mobile-menu__link">Головна</a>
+                    </li>
+                    <li class="mobile-menu__item mobile-dropdown">
+                        <a href="./services.html" class="mobile-menu__link">Послуги</a>
+                        <ul class="mobile-submenu hidden">
+                            <li><a href="#">Дозвіл на викиди в атмосферу</a></li>
+                            <li><a href="#">Дозвіл на спецводокористування</a></li>
+                            <li><a href="#">Оцінка впливу на довкілля (ОВД)</a></li>
+                            <li><a href="#">Дозвіл на оброблення відходів</a></li>
+                            <li><a href="#">План управління відходами</a></li>
+                            <li><a href="#">Декларація про відходи</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./contacts.html" class="mobile-menu__link">Контакти</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu__bottom">
+                    <ul class="mobile-contacts__list">
+                        <li class="mobile-contacts__item">
+                            <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--big">+38 096 111
+                                11
+                                11</a>
+                        </li>
+                        <li class="mobile-contacts__item">
+                            <a href="mailto:info@ecovector.com.ua" class="mobile-contacts__link">info@ecovector.com.ua</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="contacts-container">
+        <section class="contacts">
+            
+           <div class="wrapper">
+                <ul class="contacts-list">
+                    <h2 class="contact-company-name">EcoVector</h2>
+                    <li class="contacts-item">
+                        <svg class="connect-icons">
+                            <use href="./images/symbol-defs.svg#icon-land-layer-location" ></use>
+                        </svg>
+                        <a href="#" class="contacts-link">
+                            м. Київ, вул. Бориспільська 9е
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                        <svg class="connect-icons">
+                            <use href="./images/symbol-defs.svg#icon-at"></use>
+                        </svg>
+                        <a href="mailto:info@ecovector.com.ua" class="contacts-link">
+                            info@ecovector.com.ua
+                        </a>
+                    </li>
+                    <li class="contacts-item">
+                            <svg class="connect-icons">
+                                <use href="./images/symbol-defs.svg#icon-mobile-notch" ></use>
+                            </svg>
+                        <a href="tel:+380961111111" class="contacts-link">
+                            +38 096 111 11 11
+                        </a>
+                    </li>
+                </ul>
+                    <div class="contact-img">
+                        <img src="./images/contacts-img-desktop.png" alt="notebook">
+                    </div>
+           </div>
+        </section>
+            <section class="form-screen form-screen-contacts">
+                <div class="container-form" id="cont-form">
+                    <h2 class="form-header">
+                        Безкоштовна консультація фахівця
+                    </h2>
+                    <form id="contactForm" class="form-container form-contacts ">
+                        <h2 class="form-headers">
+                            Безкоштовна консультація фахівця
+                        </h2>
+                        <input class="input cont-form" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                        <span class="error" id="nameError"></span>
+            
+                        <input class="input cont-form" type="text" id="phone" name="phone" placeholder="Ваш номер телефона" required>
+                        <span class="error" id="phoneError"></span>
+            
+                        <input class="input cont-form" type="email" id="email" name="email" placeholder="Ваш email" required>
+                        <span class="error" id="emailError"></span>
+            
+                        <textarea class="text-area cont-form" id="message" name="message" placeholder="Ваше повідомлення" required></textarea>
+                        <span class="error" id="messageError"></span>
+                        <button class="form-button" type="submit">Відправити</button>
+                    </form>
+                    <iframe class="google-map"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.6361819407794!2d30.664171476059174!3d50.42924978889069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4c5272c25bcb1%3A0x62b305713ee26b5b!2z0LLRg9C70LjRhtGPINCR0L7RgNC40YHQv9GW0LvRjNGB0YzQutCwLCA50LUsINCa0LjRl9CyLCAwMjA5OQ!5e0!3m2!1suk!2sua!4v1736687576425!5m2!1suk!2sua"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="pre-footer-block">
+                    <img src="./images/contacts-agreement-desktop.jpg" alt="agreement" class="pre-footer-img">
+                </div>
+            </section>
+            <footer class="footer cont-footer">
+                <div class="footer-container">
+                    <img src="./images/ecovector-logo-white-2.png" class="footer-logo" alt="logo">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <p class="footer-contacts-link">м. Київ, вул. Бориспільська 9е
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-map-marker" width="16" height="16"></use>
+                                </svg>
+                            </p>
+                        </li>
+                        <li class="footer-item">
+                            <a href="mailto:info@ecovector.com.ua" class="footer-contacts-link">info@ecovector.com.ua
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-envelope" width="16" height="16"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="tel:+380961111111" class="footer-contacts-link">+38 096 111 11 11
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-smartphone" width="16" height="16"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="submit" class="fas fa-arrow-up btn"></button>
+            </footer>
+    </div>
+    </main>
+        <script src="https://cdn.jsdelivr.net/npm/notiflix"></script>
+        <script src="js/mobile-menu.js"></script>
+        <script src="js/script.js"></script>
+        <script src="js/numbers.js"></script>
+        <script src="js/slider.js"></script>
+        <script src="js/form-sender.js"></script>
+</body>
+</html>
