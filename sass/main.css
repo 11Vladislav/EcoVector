@@ -1561,8 +1561,6 @@ button:focus {
   }
 }
 
-@media screen and (min-width: 768px) {
-  .cont-footer {
-    margin-top: 0;
-  }
+.cont-footer {
+  margin-top: 0;
 }/*# sourceMappingURL=main.css.map */
