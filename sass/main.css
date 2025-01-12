@@ -551,7 +551,7 @@ template {
   align-items: baseline;
   flex-wrap: wrap;
   max-width: 220px;
-  margin-right: 50px;
+  margin-right: 30%;
 }
 @media screen and (min-width: 768px) {
   .title__wrap {
