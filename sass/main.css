@@ -602,6 +602,10 @@ template {
   animation: fadeIn 5s ease-in-out forwards;
 }
 
+#para2 {
+  margin-top: 25px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -1122,7 +1126,7 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .icon-title {
-    font-size: 26px;
+    font-size: 23px;
     max-width: 150px;
   }
 }
@@ -1574,4 +1578,149 @@ button:focus {
 
 .cont-footer {
   margin-top: 0;
+}
+
+.ovd-text {
+  padding: 50px 15px;
+  line-height: 1.5;
+}
+
+.ovd-paragraph {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.ovd-list {
+  list-style: disc;
+  margin-top: 35px;
+}
+
+.ovd-item {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.main-title {
+  font-weight: 700;
+  color: #538135;
+  text-decoration: underline;
+}
+
+.main-title > span {
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.left-img {
+  max-width: 300px;
+  float: left;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-left: 15px;
+}
+
+.ovd-heading {
+  margin-top: 140px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #6f491f;
+}
+
+.ovd-accent {
+  color: #538135;
+  text-decoration: underline;
+}
+
+.ovd-accent > a:visited {
+  color: #538135;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.ovd-heading-second {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #6f491f;
+}
+
+.right-img {
+  max-width: 700px;
+  float: right;
+  margin-left: auto;
+  margin-bottom: 15px;
+}
+
+.ovd-list-number {
+  list-style-type: decimal;
+}
+
+.sub-list-item {
+  margin: 15px 0;
+}
+
+.list-number-item {
+  margin: 15px 0;
+}
+
+.left-img-second {
+  max-width: 700px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+.text-columns {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  max-width: 45%;
+}
+
+#second-paragraph {
+  margin-top: 10px;
+}
+
+.column-span {
+  text-decoration: underline;
+}
+
+.last {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.information {
+  display: flex;
+}
+
+.cirlce {
+  border: 1px solid #538135;
+  border-radius: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-right: 25px;
+  text-align: center;
+}
+
+.cirlce > p {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.pre-form-title {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.ovd-form {
+  padding: 0 15px;
 }/*# sourceMappingURL=main.css.map */

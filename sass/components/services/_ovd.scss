@@ -1,0 +1,145 @@
+.ovd-text{
+    padding: 50px 15px;
+    line-height: 1.5;
+}
+
+.ovd-paragraph{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.ovd-list{
+    list-style: disc;
+    margin-top: 35px;
+}
+
+.ovd-item{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.main-title{
+    font-weight: 700;
+    color: $heading-color;
+    text-decoration: underline;
+}
+
+.main-title>span{
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.left-img{
+    max-width: 300px;
+    float: left;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.ovd-heading{
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: $title-color;
+    
+}
+
+.ovd-accent{
+    color: $heading-color;
+    text-decoration: underline;
+}
+
+.ovd-accent>a:visited{
+    color: $heading-color;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ovd-heading-second{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    color: $title-color;
+}
+
+.right-img{
+    max-width: 700px;
+    float: right;
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+.ovd-list-number{
+    list-style-type: decimal;
+}
+
+.sub-list-item{
+    margin: 15px 0;
+    
+}
+
+.list-number-item{
+    margin: 15px 0;
+}
+
+.left-img-second{
+    max-width: 700px;
+    float: left;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+.text-columns{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column{
+    max-width: 45%;
+}
+
+#second-paragraph{
+    margin-top: 10px;
+}
+
+.column-span{
+    text-decoration: underline;
+}
+
+.last{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.information{
+    display: flex;
+}
+
+.cirlce{
+    border: 1px solid $heading-color;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 25px;
+    text-align: center;
+}
+
+.cirlce>p{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.pre-form-title{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.ovd-form{
+    padding: 0 15px;
+}

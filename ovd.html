@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <nav class="nav">
+            <a class="logo" href="./index.html" lang="en">
+                <img src="./images/ecovector-logo-brown-1.png" class="logo__image" alt="logo">
+            </a>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="./index.html">Головна
+                    </a>
+                </li>
+                <li class="nav__item dropdown">
+                    <a class="nav__link" href="#" id="services">Послуги
+                        <ul class="submenu">
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Дозвіл на викиди в атмосферу</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Дозвіл на спецводокористування</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Оцінка впливу на довкілля (ОВД)</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Дозвіл на оброблення відходів</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">План управління відходами</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Декларація про відходи</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="./contacts.html">Контакти
+                    </a>
+                </li>
+            </ul>
+            <select id="languageSelect" class="language-select">
+                <option value="ua" selected>УКР</option>
+                <option value="en">ENG</option>
+            </select>
+
+            <button type="button" class="menu__open">
+                <svg class="menu__open__btn" data-mobile-menu-open>
+                    <use href="./images/icons.svg#icon-mob-menu-btn" width="32" height="24"></use>
+                </svg>
+            </button>
+        </nav>
+    </div>
+    <div class="mobile-menu is-hidden" data-mobile-menu>
+        <div class="container">
+            <button type="button" class="menu__close">
+                <svg class="menu__close__btn" data-mobile-menu-close>
+                    <use href="./images/icons.svg#icon-close_mob_menu" width="19" height="19"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="./index.html" class="mobile-menu__link">Головна</a>
+                </li>
+                <li class="mobile-menu__item mobile-dropdown">
+                    <a href="#" class="mobile-menu__link">Послуги&nbsp;&nbsp; v</a>
+                    <ul class="mobile-submenu hidden">
+                        <li><a href="#">Дозвіл на викиди в атмосферу</a></li>
+                        <li><a href="#">Дозвіл на спецводокористування</a></li>
+                        <li><a href="#">Оцінка впливу на довкілля (ОВД)</a></li>
+                        <li><a href="#">Дозвіл на оброблення відходів</a></li>
+                        <li><a href="#">План управління відходами</a></li>
+                        <li><a href="#">Декларація про відходи</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="./contacts.html" class="mobile-menu__link">Контакти</a>
+                </li>
+            </ul>
+            <div class="mobile-menu__bottom">
+                <ul class="mobile-contacts__list">
+                    <li class="mobile-contacts__item">
+                        <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--big">+38 096 111
+                            11
+                            11</a>
+                    </li>
+                    <li class="mobile-contacts__item">
+                        <a href="mailto:info@ecovector.com.ua" class="mobile-contacts__link">info@ecovector.com.ua</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+<section class="ovd-screen">
+        <div class="left-img">
+            <img src="./images/6-3-2.png" alt="working">
+        </div>
+    <article class="ovd-text">
+
+        <p class="ovd-paragraph"><span class="main-title">Оцінка впливу на довкілля <span>(ОВД)</span> </span> —це процедура, що передбачає:</p>
+        <ul class="ovd-list">
+            <li class="ovd-item">підготовку суб’єктом господарювання звіту з оцінки впливу на довкілля;
+            </li>
+            <li class="ovd-item">проведення громадського обговорення;</li>
+            <li class="ovd-item">аналіз уповноваженим органом наданої у звіті з оцінки впливу на довкілля інформації, будь-якої додаткової інформації, а
+            також інформації, отриманої від громадськості під час громадського обговорення;</li>
+            <li class="ovd-item">надання уповноваженим органом мотивованого висновку з оцінки впливу на довкілля, що враховує результати аналізу;</li>
+            <li class="ovd-item">врахування висновку з оцінки впливу на довкілля у рішенні про провадження планованої діяльності;</li>
+            <li class="ovd-item">під час здійснення оцінки впливу на довкілля уповноважений орган проводить консультації щодо звіту з оцінки впливу на
+            довкілля з іншими органами виконавчої влади та органами місцевого самоврядування відповідно до їхніх повноважень з
+            питань, що стосуються довкілля.</li>
+        </ul>
+         
+        <p class="ovd-paragraph">&nbsp;&nbsp;&nbsp;Здійснення оцінки впливу на довкілля <span>є обов’язковим</span> у процесі прийняття рішень про провадження планованої діяльності,
+        для певних категорій видів планованої діяльності та об’єктів, які можуть мати значний вплив на довкілля.</p>
+        <p class="ovd-paragraph">&nbsp;&nbsp;&nbsp;Забороняється розпочинати провадження планованої діяльності без оцінки впливу на довкілля та отримання рішення про
+        провадження планованої діяльності.</p>
+        <h2 class="ovd-heading">Чи необхідна для Вашого підприємства ОВД?</h2>
+        <p class="ovd-paragraph">&nbsp;&nbsp;&nbsp;Перелік планованої діяльність, що підлягає оцінці впливу на довкілля до прийняття рішення про провадження планованої
+        діяльності, вказана в п. 2 та п. 3 ст. 3 <span class="ovd-accent">
+        <a href="https://zakon.rada.gov.ua/laws/show/2059-19#Text">Закону України «Про оцінку впливу на довкілля».</a></span>
+        </p>
+        <div class="right-img">
+            <img src="./images/8-3-1-desktop.jpg" alt="working">
+        </div>
+        <h2 class="ovd-heading-second">Звіт з оцінки впливу на довкілля включає:</h2>
+        <ol class="list-number">
+            <li class="list-number-item">опис планованої діяльності, зокрема:
+                <ul class="sub-list">
+                    <li class="sub-list-item">&nbsp;&nbsp;&nbsp;опис місця провадження планованої діяльності;</li>
+                    <li class="sub-list-item">&nbsp;&nbsp;&nbsp;цілі планованої діяльності;</li>
+                    <li class="sub-list-item">&nbsp;&nbsp;&nbsp;опис характеристик діяльності протягом виконання підготовчих і будівельних робіт та провадження планованої діяльності та
+                    ін.;</li>
+                    <li class="sub-list-item">&nbsp;&nbsp;&nbsp;опис основних характеристик планованої діяльності (зокрема виробничих процесів), наприклад, виду і кількості матеріалів
+                    та природних ресурсів (води, земель, ґрунтів, біорізноманіття), які планується використовувати;</li>
+                    <li class="sub-list-item">&nbsp;&nbsp;&nbsp;оцінку за видами та кількістю очікуваних відходів, викидів (скидів), забруднення води, повітря, ґрунту та надр,
+                    шумового, вібраційного, світлового, теплового та радіаційного забруднення, а також випромінення, які виникають у
+                    результаті виконання підготовчих і будівельних робіт та провадження планованої діяльності;</li>
+                </ul>
+            </li>
+            <li class="list-number-item">опис виправданих альтернатив (наприклад, географічного та/або технологічного характеру) планованої діяльності, основних
+            причин обрання запропонованого варіанта з урахуванням екологічних наслідків;</li>
+            <li class="list-number-item">опис поточного стану довкілля (базовий сценарій) та опис його ймовірної зміни без здійснення планованої діяльності;</li>
+            <li class="list-number-item">опис факторів довкілля, які ймовірно зазнають впливу з боку планованої діяльності та її альтернативних варіантів, у тому
+            числі здоров’я населення, стан фауни, флори, біорізноманіття, землі, ґрунтів, води, повітря, кліматичні фактори,
+            матеріальні об’єкти, включаючи архітектурну, археологічну та культурну спадщину, ландшафт, соціально-економічні умови та
+            взаємозв’язки між цими факторами;
+            </li>
+            <li class="list-number-item">опис і оцінку можливого впливу на довкілля планованої діяльності, зокрема величини та масштабів такого впливу,
+            характеру, інтенсивності і складності, ймовірності, очікуваного початку, тривалості, частоти і невідворотності впливу
+            (включаючи прямий і будь-який опосередкований, побічний, кумулятивний, транскордонний, короткостроковий,
+            середньостроковий та довгостроковий, постійний і тимчасовий, позитивний і негативний вплив);</li>
+            <li class="list-number-item">опис методів прогнозування, що використовувалися для оцінки впливів на довкілля;</li>
+            <li class="list-number-item">опис передбачених заходів, спрямованих на запобігання, відвернення, уникнення, зменшення, усунення значного негативного
+            впливу на довкілля, у тому числі компенсаційних заходів;</li>
+                <div class="left-img-second">
+                    <img src="./images/project-1.png" alt="project">
+                </div>
+            <li class="list-number-item">опис очікуваного значного негативного впливу діяльності на довкілля, зумовленого вразливістю проекту до ризиків
+            надзвичайних ситуацій, заходів запобігання чи пом’якшення впливу надзвичайних ситуацій на довкілля та заходів реагування
+            на надзвичайні ситуації;</li>
+            <li class="list-number-item">визначення усіх труднощів, виявлених у процесі підготовки звіту з оцінки впливу на довкілля;</li>
+            <li class="list-number-item">усі зауваження і пропозиції, що надійшли до уповноваженого територіального органу, а також таблицю із зазначенням
+            інформації про повне врахування, часткове врахування або обґрунтування відхилення отриманих під час громадського
+            обговорення зауважень та пропозицій;</li>
+            <li class="list-number-item">стислий зміст програм моніторингу та контролю щодо впливу на довкілля під час провадження планованої діяльності, а також
+            (за потреби) планів післяпроектного моніторингу;</li>
+            <li class="list-number-item">резюме нетехнічного характеру інформації, розраховане на широку аудиторію;</li>
+            <li class="list-number-item">список посилань</li>
+        </ol>
+        <div class="text-columns">
+            <article class="column">
+                <p class="column-text">&nbsp;&nbsp;&nbsp;Висновок з оцінки впливу на довкілля <span class="column-span">втрачає силу через п’ять років</span> у разі, якщо не було прийнято рішення про
+                провадження планованої діяльності. Якщо до отримання рішення про провадження планованої діяльності внесено зміни до
+                проектної документації чи зміни до законодавства, які вимагають зміни екологічних умов, визначених у висновку з оцінки
+                впливу на довкілля, оцінка впливу на довкілля здійснюється повторно.
+                </p><p id="second-paragraph">
+                &nbsp;&nbsp;&nbspГромадське обговорення у процесі оцінки впливу на довкілля проводиться з метою виявлення, збирання та врахування
+                зауважень і пропозицій громадськості до планованої діяльності. Громадськість має право подавати будь-які зауваження чи
+                пропозиції, які, на її думку, стосуються планованої діяльності, без необхідності їх обґрунтування.
+                </p>
+            </article>
+            <article class="column">
+                    <p class="column-text">&nbsp;&nbsp;&nbsp;Повідомлення про плановану діяльність, яка підлягає оцінці впливу на довкілля, оголошення про початок громадського
+                    обговорення звіту з оцінки впливу на довкілля оприлюднюються суб’єктом господарювання шляхом розміщення не менше ніж в
+                    трьох публічних місцях на території, де планується провадити плановану діяльність, та в усіх населених пунктах, які
+                    можуть зазнати впливу планованої діяльності, та/або опублікування в друкованих медіа.</br>
+                    &nbsp;&nbsp;&nbsp;Інформація про висновок з оцінки впливу на довкілля та рішення про провадження планованої діяльності (із зазначенням
+                    органу, номера та дати їх прийняття) оприлюднюється суб’єктом господарювання<span class="column-span">протягом трьох робочих днів з дня отримання
+                    ним рішення</span> про провадження планованої діяльності.
+                    </p>
+            </article>
+        </div>
+            <p class="ovd-paragraph last">&nbsp;&nbsp;&nbsp;Інформація внеситься до Єдиного реєстру з оцінки впливу на довкілля, вона є відкритою, вільний доступ до неї
+              забезпечується через мережу Інтернет.</p>
+              <div class="information">
+                <div class="cirlce"><p>i</p></div>
+                    <p class="ovd-paragraph">&nbsp;&nbsp;&nbsp;Згідно п. 2 ст. 9 <span class="ovd-accent"><a href="https://zakon.rada.gov.ua/laws/show/2059-19#Text">
+                        Закону України «Про оцінку впливу на довкілля»</a></span> 
+                        висновок з оцінки впливу на довкілля є обов’язковим для
+                    виконання. Екологічні умови провадження планованої діяльності, є обов’язковими. Висновок з оцінки впливу на довкілля
+                    враховується при прийнятті рішення про провадження планованої діяльності та <span class="column-span">може бути підставою для відмови</span> 
+                    у видачірішення про провадження планованої діяльності.
+                </p>
+              </div>
+              <p class="ovd-paragraph last">&nbsp;&nbsp;&nbsp;Враховуючи вищесказане, доцільно буде доручити розробку оцінки впливу на довкілля професіоналам, які врахують безліч
+            будівельних норм, стандартів та законів у сфері природоохоронного законодавства, також будуть брати участь у громадських
+            обговореннях, націлені на збереження довкілля та отримання позитивного висновку.</p>
+    </article>
+    <h2 class="pre-form-title">Щоб поставити питання нашому фахівцю, заповніть, будь ласка, форму нижче.</h2>
+</section>
+
+
+<section class="form-screen ">
+    <div class=" container-form ovd-form">
+        <h2 class="form-header">
+            Безкоштовна консультація фахівця
+        </h2>
+        <form id="contactForm" class="form-container">
+            <h2 class="form-headers">
+                Безкоштовна консультація фахівця
+            </h2>
+            <input class="input" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+            <span class="error" id="nameError"></span>
+
+            <input class="input" type="text" id="phone" name="phone" placeholder="Ваш номер телефона" required>
+            <span class="error" id="phoneError"></span>
+
+            <input class="input" type="email" id="email" name="email" placeholder="Ваш email" required>
+            <span class="error" id="emailError"></span>
+
+            <textarea class="text-area" id="message" name="message" placeholder="Ваше повідомлення" required></textarea>
+            <span class="error" id="messageError"></span>
+            <button class="form-button" type="submit">Відправити</button>
+        </form>
+
+
+    </div>
+</section>
+<footer class="footer">
+    <div class="footer-container">
+        <img src="./images/ecovector-logo-white-2.png" class="footer-logo" alt="logo">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <p class="footer-contacts-link">м. Київ, вул. Бориспільська 9е
+                    <svg class="connect__icons">
+                        <use href="./images/icons.svg#icon-map-marker" width="16" height="16"></use>
+                    </svg>
+                </p>
+            </li>
+            <li class="footer-item">
+                <a href="mailto:info@ecovector.com.ua" class="footer-contacts-link">info@ecovector.com.ua
+                    <svg class="connect__icons">
+                        <use href="./images/icons.svg#icon-envelope" width="16" height="16"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="tel:+380961111111" class="footer-contacts-link">+38 096 111 11 11
+                    <svg class="connect__icons">
+                        <use href="./images/icons.svg#icon-smartphone" width="16" height="16"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <button type="submit" class="fas fa-arrow-up btn"></button>
+</footer>
+</main>    
+    <script src="https://cdn.jsdelivr.net/npm/notiflix"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/numbers.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/form-sender.js"></script>
+</body>
+</html>
