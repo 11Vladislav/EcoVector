@@ -8,7 +8,7 @@
   cursor: pointer;
     &:hover,
     &:focus {
-        fill: $accent-hover-color;
+        fill: $heading-color;
     }
     @media screen and (min-width: 768px) {
         display: none;
@@ -20,7 +20,7 @@
     height: 24px;
         &:hover,
         &:focus {
-            fill: $accent-hover-color;
+            fill: $heading-color;
         }
 }
 
@@ -70,7 +70,7 @@
 
     &:hover,
     &:focus {
-        fill: $accent-hover-color;
+        fill: $heading-color;
         transition: fill $duration $timing-function;
     }
 }
@@ -150,7 +150,7 @@
 
     &:hover,
     &:focus {
-        color: $accent-hover-color;
+        color: $heading-color;
         transition: color $duration $timing-function;
     }
 }
@@ -160,7 +160,7 @@
 
     &:hover,
     &:focus {
-        color: $accent-hover-color;
+        color: $heading-color;
         transition: color $duration $timing-function;
     }
 }

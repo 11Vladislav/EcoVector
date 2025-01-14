@@ -6,15 +6,33 @@
 .ovd-paragraph{
     font-size: 16px;
     margin-bottom: 10px;
+    text-indent: 3ch;
 }
+
+.ovd-paragraph.pilcrow{
+    text-indent: 0;
+    display: inline;
+}
+
+.ovd-paragraph.pilcrow+.ovd-paragraph.pilcrow::before{
+    content: " ¶ ";
+}
+
 .ovd-list{
-    list-style: disc;
     margin-top: 35px;
+    margin-bottom: 50px;
 }
 
 .ovd-item{
     padding: 10px;
+    margin: 10px;
     font-size: 16px;
+}
+
+.ovd-item::before{
+    content: '✔';
+    margin-right: 10px;
+    color: #bd9479;
 }
 
 .main-title{
@@ -28,20 +46,30 @@
     text-decoration: none;
 }
 
+.left-img-mob{
+    @media screen and (min-width: $desktop) {
+        display: none;
+    }
+}
 .left-img{
-    max-width: 300px;
-    float: left;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-left: 15px;
+    display: none;
+@media screen and (min-width: $desktop) {
+    display: block;
+        max-width: 400px;
+        float: left;
+        margin-right: 50px;
+    }
 }
 
 .ovd-heading{
-    margin-top: 140px;
+    margin-top: 40px;
     margin-bottom: 20px;
     font-size: 20px;
     font-weight: 700;
     color: $title-color;
+    @media screen and (min-width: $desktop) {
+      margin-top: 100px;
+    }
     
 }
 
@@ -80,29 +108,59 @@
     
 }
 
+.sub-list-item::before{
+    content: '✔';
+    margin-right: 10px;
+    color: $marks-color;
+}
+
 .list-number-item{
     margin: 15px 0;
 }
 
 .left-img-second{
-    max-width: 700px;
-    float: left;
-    margin-top: 15px;
-    margin-right: 50px;
+    max-width: 500px;
+    @media screen and (min-width: $desktop) {
+        max-width: 400px;
+        float: left;
+        margin-top: 15px;
+        margin-right: 50px;
+    }
 }
 
 .text-columns{
-    margin-top: 150px;
+    margin-top: 25px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    @media screen and (min-width: $desktop) {
+        margin-top: 50px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 .column{
-    max-width: 45%;
+    max-width: 100%;
+    @media screen and (min-width: $desktop) {
+     max-width: 43%;
+    }
 }
 
-#second-paragraph{
-    margin-top: 10px;
+
+.column-text{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-indent: 3ch;
+    text-align: justify;
+}
+
+.column-text.pilcrow {
+    text-indent: 0;
+    display: inline;
+}
+
+.column-text.pilcrow+.column-text.pilcrow::before{
+    content: " ¶ ";
 }
 
 .column-span{
@@ -110,34 +168,34 @@
 }
 
 .last{
-    margin-top: 50px;
-    margin-bottom: 50px;
+   margin: 50px;
+   text-align: justify;
 }
 
 .information{
     display: flex;
 }
 
-.cirlce{
-    border: 1px solid $heading-color;
-    border-radius: 50%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    padding-left: 25px;
-    padding-right: 25px;
-    margin-right: 25px;
-    text-align: center;
-}
 
-.cirlce>p{
-    font-weight: 800;
-    font-size: 30px;
+.info{
+    margin-right:  25px;
+    max-width: 40px;
+    max-height: 40px;
+    fill: red;
+    float: left;
 }
 
 .pre-form-title{
     font-size: 24px;
     font-weight: 400;
     text-align: center;
+}
+
+
+.ovd-screen-form{
+    @media screen and (max-width: $desktop) {
+        height: fit-content;
+    }
 }
 
 .ovd-form{
