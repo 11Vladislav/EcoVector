@@ -168,8 +168,11 @@
 }
 
 .last{
-   margin: 50px;
-   text-align: justify;
+    text-align: justify;
+    margin-top: 25px;
+    @media screen and (min-width: $desktop) {
+        margin: 50px;
+    }
 }
 
 .information{

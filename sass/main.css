@@ -1759,8 +1759,13 @@ button:focus {
 }
 
 .last {
-  margin: 50px;
   text-align: justify;
+  margin-top: 25px;
+}
+@media screen and (min-width: 768px) {
+  .last {
+    margin: 50px;
+  }
 }
 
 .information {
