@@ -1,6 +1,6 @@
 .ovd-text{
     padding: 50px 15px;
-    line-height: 1.5;
+    line-height: 1.3;
 }
 
 .ovd-paragraph{
@@ -20,23 +20,20 @@
 
 .ovd-list{
     margin-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .ovd-item{
+    display: flex;
     padding: 10px;
     margin: 10px;
     font-size: 16px;
 }
 
-// .mark{
-//     height: 25px;
-//     width: 25px;
-//     fill: $marks-color;
-// }
 
 .ovd-item::before{
-    content: 'v';
+    content: 'V';
+    font-weight: 900;
     margin-right: 10px;
     color: #bd9479;
 }
@@ -61,21 +58,21 @@
     display: none;
 @media screen and (min-width: $desktop) {
     display: block;
-        max-width: 400px;
+        max-width: 390px;
         float: left;
         margin-right: 50px;
     }
 }
 
 .ovd-heading{
-    margin-top: 40px;
-    margin-bottom: 20px;
+    display: inline-block;
+    max-width: fit-content;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
     font-size: 20px;
     font-weight: 700;
     color: $title-color;
-    @media screen and (min-width: $desktop) {
-      margin-top: 100px;
-    }
     
 }
 
@@ -91,8 +88,11 @@
 }
 
 .ovd-heading-second{
-    margin-top: 25px;
-    margin-bottom: 20px;
+    display: inline-block;
+    max-width: fit-content;
+    margin-top: 45px;
+    margin-bottom: 10px;
+    margin-left: 50px;
     font-size: 20px;
     font-weight: 700;
     color: $title-color;
@@ -102,6 +102,7 @@
     max-width: 700px;
     float: right;
     margin-left: auto;
+    margin-top: 60px;
     margin-bottom: 15px;
 }
 
@@ -115,7 +116,8 @@
 }
 
 .sub-list-item::before{
-    content: 'v';
+    content: 'V';
+    font-weight: 900;
     margin-right: 10px;
     color: $marks-color;
 }
@@ -125,9 +127,8 @@
 }
 
 .left-img-second{
-    max-width: 500px;
     @media screen and (min-width: $desktop) {
-        max-width: 400px;
+        max-width: 500px;
         float: left;
         margin-top: 15px;
         margin-right: 50px;
@@ -140,8 +141,13 @@
     flex-direction: column;
     @media screen and (min-width: $desktop) {
         margin-top: 50px;
+        margin-bottom: 100px;
         flex-direction: row;
         justify-content: space-around;
+        background-image: url(../images/ovd-desktop-background.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+       background-position: contain;
     }
 }
 
@@ -173,6 +179,10 @@
     text-decoration: underline;
 }
 
+.text-backround{
+    padding: 15px;
+    background-color: $input-background; 
+}
 .last{
     text-align: justify;
     margin-top: 25px;
@@ -187,7 +197,8 @@
 
 
 .info{
-    margin-right:  25px;
+    margin-right: 25px;
+    padding: 5px;
     max-width: 40px;
     max-height: 40px;
     fill: $heading-color;
@@ -195,18 +206,39 @@
 }
 
 .pre-form-title{
+    margin-bottom: 50px;
     font-size: 24px;
     font-weight: 400;
     text-align: center;
 }
 
 
-.ovd-screen-form{
-    @media screen and (max-width: $desktop) {
-        height: fit-content;
+.form-screen-contacts-ovd{
+    width: fit-content;
+    @media screen and (min-width: $desktop) {
+        height: 94vh;
     }
 }
 
-.ovd-form{
-    padding: 0 15px;
+.container-form-ovd{
+    flex-direction: column;
+    @media screen and (min-width: $desktop) {
+        padding-top: 0;
+        justify-content: flex-start;
+        flex-direction: row;
+    }
+}
+
+
+.cont-form-ovd{
+    background-color: $input-background;
+}
+
+.img-block{
+    max-width: 100%;
+    margin-left: 0;
+    @media screen and (min-width: $desktop) {
+        margin-left: 100px;
+        max-width: 40%;
+    }
 }
