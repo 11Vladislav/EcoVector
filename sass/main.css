@@ -1338,11 +1338,6 @@ button:focus {
   max-height: 140px;
   z-index: 50;
 }
-@media screen and (min-width: 768px) {
-  .footer {
-    margin-top: 20px;
-  }
-}
 
 .footer-container {
   width: 100%;
@@ -1616,6 +1611,8 @@ button:focus {
 }
 
 .ovd-item {
+  padding: 5px;
+  margin: 5px;
   display: flex;
   font-size: 16px;
 }
@@ -1728,20 +1725,23 @@ button:focus {
 }
 
 .text-columns {
+  background-image: url(../images/ovd-desktop-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: contain;
+}
+
+.column-wrapper {
   margin-top: 25px;
   display: flex;
   flex-direction: column;
 }
 @media screen and (min-width: 768px) {
-  .text-columns {
-    margin-top: 50px;
-    margin-bottom: 100px;
+  .column-wrapper {
+    margin-top: 25px;
+    padding: 50px 0;
     flex-direction: row;
     justify-content: space-around;
-    background-image: url(../images/ovd-desktop-background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: contain;
   }
 }
 
@@ -1775,8 +1775,8 @@ button:focus {
 }
 
 .text-backround {
-  padding: 15px;
-  background-color: #c6b3a2;
+  padding: 5px;
+  background-color: #f8e2c9;
 }
 
 .last {
@@ -1789,11 +1789,18 @@ button:focus {
   }
 }
 
+.colum-paragraph {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
 .information {
   display: flex;
 }
 
 .info {
+  margin-top: 60px;
+  margin-left: 25px;
   margin-right: 25px;
   padding: 5px;
   max-width: 40px;
@@ -1821,7 +1828,7 @@ button:focus {
 }
 
 .cont-form-ovd {
-  background-color: #c6b3a2;
+  background-color: #f8e2c9;
 }
 
 .img-block {

@@ -3,9 +3,6 @@
     background-color: $main-color;
     max-height: 140px;
     z-index: 50;
-    @media screen and (min-width: $desktop) {
-        margin-top: 20px;
-    }
 }
 
 .footer-container{

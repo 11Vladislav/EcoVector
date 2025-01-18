@@ -24,6 +24,8 @@
 }
 
 .ovd-item{
+    padding: 5px;
+    margin: 5px;
     display: flex;
     font-size: 16px;
 }
@@ -134,20 +136,28 @@
 }
 
 .text-columns{
-    margin-top: 25px;
-    display: flex;
-    flex-direction: column;
-    @media screen and (min-width: $desktop) {
-        margin-top: 50px;
-        margin-bottom: 100px;
-        flex-direction: row;
-        justify-content: space-around;
-        background-image: url(../images/ovd-desktop-background.png);
-        background-size: cover;
-        background-repeat: no-repeat;
-       background-position: contain;
-    }
+    background-image: url(../images/ovd-desktop-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: contain;
 }
+
+.column-wrapper{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        
+        @media screen and (min-width: $desktop) {
+                margin-top: 25px;
+        
+                padding: 50px 0;
+                flex-direction: row;
+                justify-content: space-around;
+                
+
+     }
+}
+
 
 .column{
     max-width: 100%;
@@ -178,8 +188,8 @@
 }
 
 .text-backround{
-    padding: 15px;
-    background-color: $input-background; 
+    padding: 5px;
+    background-color: $alt-background-color; 
 }
 .last{
     text-align: justify;
@@ -189,12 +199,19 @@
     }
 }
 
+.colum-paragraph{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .information{
     display: flex;
 }
 
 
 .info{
+    margin-top: 60px;
+    margin-left: 25px;
     margin-right: 25px;
     padding: 5px;
     max-width: 40px;
@@ -221,7 +238,7 @@
 
 
 .cont-form-ovd{
-    background-color: $input-background;
+    background-color: $alt-background-color;
 }
 
 .img-block{
