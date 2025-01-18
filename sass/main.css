@@ -1852,12 +1852,13 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .pol-list {
-    margin-top: 100px;
+    margin-top: 50px;
   }
 }
 
 .pollution-text {
-  padding-top: 20px;
+  padding-top: 40px;
+  padding-left: 0;
 }
 
 .pollution-accent {
@@ -1882,9 +1883,9 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .text-with-backround {
-    margin-top: 200px;
+    margin-top: 20px;
     margin-bottom: 100px;
-    margin-left: 75px;
+    margin-left: 25px;
     max-width: 85%;
   }
 }
@@ -1904,6 +1905,7 @@ button:focus {
 @media screen and (min-width: 768px) {
   .left-img-pol-second {
     max-width: 350px;
+    margin-right: 20px;
   }
 }
 
