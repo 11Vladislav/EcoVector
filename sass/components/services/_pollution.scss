@@ -1,0 +1,79 @@
+.pol-img{
+    margin-top: 0;
+    margin-right: 0;
+    @media screen and (min-width: $desktop) {
+        margin-top: 25px;
+        margin-right: 25px;
+        max-width: 450px;
+    }
+}
+
+.pol-list{
+    @media screen and (min-width: $desktop) {
+     margin-top: 100px;
+    }
+}
+
+.pollution-text{
+    padding-top: 20px;
+}
+.pollution-accent{
+    color: $title-color;
+    font-weight: 700;
+}
+
+.pollution-text-block{
+    margin-top: 50px;
+}
+
+.abzats{
+    margin-left: 35px;
+}
+
+.text-with-backround{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    background-color: $alt-background-color;
+    @media screen and (min-width: $desktop) {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 35px;
+    }
+
+}
+
+.underline{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+.left-img-pol-second{
+    max-width: 100%;
+    @media screen and (min-width: $desktop) {
+     max-width: 350px;
+    }
+}
+
+.not-abzats{
+    text-indent: 0;
+}
+
+.space{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    @media screen and (min-width: $desktop) {
+        margin-top: 130px;
+        margin-bottom: 50px;
+    }
+}
+
+.pol-title{
+    @media screen and (min-width: $desktop) {
+        margin-top: 20px;
+    }
+}

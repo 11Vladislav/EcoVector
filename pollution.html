@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+<body>
+<header class="header">
+    <div class="container header__container">
+        <nav class="nav">
+            <a class="logo" href="./index.html" lang="en">
+                <img src="./images/ecovector-logo-brown-1.png" class="logo__image" alt="logo">
+            </a>
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="./index.html">Головна
+                    </a>
+                </li>
+                <li class="nav__item dropdown">
+                    <a class="nav__link" href="#" id="services">Послуги
+                        <ul class="submenu">
+                            <li class="submenu-menu__item">
+                                <a href="./pollution.html" class="submenu__link">Дозвіл на викиди в атмосферу</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Дозвіл на спецводокористування</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="./ovd.html" class="submenu__link">Оцінка впливу на довкілля (ОВД)</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Дозвіл на оброблення відходів</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">План управління відходами</a>
+                            </li>
+                            <li class="submenu-menu__item">
+                                <a href="#" class="submenu__link">Декларація про відходи</a>
+                            </li>
+                        </ul>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="./contacts.html">Контакти
+                    </a>
+                </li>
+            </ul>
+            <select id="languageSelect" class="language-select">
+                <option value="ua" selected>УКР</option>
+                <option value="en">ENG</option>
+            </select>
+
+            <button type="button" class="menu__open">
+                <svg class="menu__open__btn" data-mobile-menu-open>
+                    <use href="./images/icons.svg#icon-mob-menu-btn" width="32" height="24"></use>
+                </svg>
+            </button>
+        </nav>
+    </div>
+    <div class="mobile-menu is-hidden" data-mobile-menu>
+        <div class="container">
+            <button type="button" class="menu__close">
+                <svg class="menu__close__btn" data-mobile-menu-close>
+                    <use href="./images/icons.svg#icon-close_mob_menu" width="19" height="19"></use>
+                </svg>
+            </button>
+            <ul class="mobile-menu__list">
+                <li class="mobile-menu__item">
+                    <a href="./index.html" class="mobile-menu__link">Головна</a>
+                </li>
+                <li class="mobile-menu__item mobile-dropdown">
+                    <a href="#" class="mobile-menu__link">Послуги <span>V</span></a>
+                    <ul class="mobile-submenu hidden">
+                        <li><a href="./pollution.html">Дозвіл на викиди в атмосферу</a></li>
+                        <li><a href="#">Дозвіл на спецводокористування</a></li>
+                        <li><a href="./ovd.html">Оцінка впливу на довкілля (ОВД)</a></li>
+                        <li><a href="#">Дозвіл на оброблення відходів</a></li>
+                        <li><a href="#">План управління відходами</a></li>
+                        <li><a href="#">Декларація про відходи</a></li>
+                    </ul>
+                </li>
+                <li class="mobile-menu__item">
+                    <a href="./contacts.html" class="mobile-menu__link">Контакти</a>
+                </li>
+            </ul>
+            <div class="mobile-menu__bottom">
+                <ul class="mobile-contacts__list">
+                    <li class="mobile-contacts__item">
+                        <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--big">+38 096 111
+                            11
+                            11</a>
+                    </li>
+                    <li class="mobile-contacts__item">
+                        <a href="mailto:info@ecovector.com.ua" class="mobile-contacts__link">info@ecovector.com.ua</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="pollution-screen">
+    <div class="left-img-mob pol-img">
+        <img src="./images/1-1.jpg" alt="pollution">
+    </div>
+    <div class="left-img pol-img">
+        <img src="./images/1-1-desktop.jpg" alt="pollution">
+    </div>
+        <article class="ovd-text pollution-text">
+            <p class="ovd-paragraph">
+                Відповідно до ст. 11 <span class="ovd-accent"><a href="https://zakon.rada.gov.ua/laws/show/2707-12#Text" target="_blank">
+                    Закону України «Про охорону атмосферного повітря» </a>
+                </span> викиди забруднюючих речовин в атмосферне повітря
+                стаціонарними джерелами можуть здійснюватися після отримання дозволу на викиди.
+            </p>
+            <div class="pollution-text-block">
+                <p class="ovd-paragraph"><span class="pollution-accent">Кому необхідний дозвіл:</span> суб’єктам господарювання, які здійснюють викиди забруднюючих речовин або їх сумішей в атмосферне повітря стаціонарними
+                 джерелами.
+                </p>
+                <p class="ovd-paragraph"><span class="column-span">До першої групи</span> 
+                    належать об’єкти, які взяті на державний облік і мають виробництва або технологічне устаткування, на
+                яких повинні впроваджуватися екологічно безпечні технології та методи керування.</p>
+                <p class="ovd-paragraph"><span class="column-span">До другої групи</span> 
+                    належать об’єкти, які взяті на державний облік і не мають виробництв або технологічного устаткування, на яких повинні
+                впроваджуватися екологічно безпечні технології та методи керування.</p>
+                <p class="ovd-paragraph"><span class="column-span">До третьої групи</span> 
+                    належать об’єкти, які не належать до першої і другої груп.</p>
+            </div>
+            <ul class="ovd-list">
+                <span class="pollution-accent abzats">Термін дії дозволу для:</span>
+                <li class="ovd-item">першої групи: 7 років;
+                </li>
+                <li class="ovd-item">другої групи: 10 років;</li>
+                <li class="ovd-item">третьої групи: необмежений.
+                </li>
+            </ul>
+            <ul class="ovd-list pol-list">
+                <span class="pollution-accent abzats">Орган, що видає дозвіл:</span>
+                <li class="ovd-item">Якщо об’єкт належить до першої групи, та/або об’єкт якого знаходиться на території зони відчуження — Міністерством
+                захисту довкілля та природних ресурсів;</li>
+                <li class="ovd-item">Якщо об’єкт належить до другої або третьої групи — обласними, Київською, Севастопольською міськими державними
+                адміністраціями, органом виконавчої влади Автономної Республіки Крим з питань охорони навколишнього природного
+                середовища.</li>
+            </ul>
+            <div class="right-img pol-right-img">
+                <img src="./images/pipes.png" alt="pipes">
+            </div>
+            <ul class="ovd-list">
+                <span class="pollution-accent abzats">Для отримання дозволу суб'єкт господарювання:</span>
+                <li class="ovd-item">проводить інвентаризацію стаціонарних джерел викидів забруднюючих речовин в атмосферне повітря, видів та обсягів викидів
+                забруднюючих речовин в атмосферне повітря стаціонарними джерелами, пилогазоочисного обладнання;</li>
+                <li class="ovd-item">готує інформацію про отримання дозволу для ознайомлення з нею громадськості;</li>
+                <li class="ovd-item">отримує погодження Держпродспоживслужби;</li>
+                <li class="ovd-item">готує документи, в яких обґрунтовуються обсяги викидів забруднюючих речовин;</li>
+                <li class="ovd-item">проводить оцінку впливу викидів забруднюючих речовин на стан атмосферного повітря на межі санітарно-захисної зони;</li>
+                <li class="ovd-item">розробляє плани заходів щодо: досягнення встановлених нормативів граничнодопустимих викидів для найбільш поширених і
+                небезпечних забруднюючих речовин; охорони атмосферного повітря на випадок виникнення надзвичайних ситуацій техногенного
+                та природного характеру; ліквідації причин і наслідків забруднення атмосферного повітря; остаточного припинення
+                діяльності, пов'язаної з викидами забруднюючих речовин в атмосферне повітря, та приведення місця діяльності у
+                задовільний стан; запобігання перевищенню встановлених нормативів граничнодопустимих викидів у процесі виробництва;
+                здійснення контролю за дотриманням встановлених нормативів граничнодопустимих викидів забруднюючих речовин та умов
+                дозволу на викиди;</li>
+                <li class="ovd-item">обґрунтовує розміри нормативних санітарно-захисних зон, проводить оцінку витрат, пов`язаних з реалізацією заходів щодо
+                їх створення; проводить оцінку та аналіз витрат, пов`язаних з реалізацією запланованих заходів щодо запобігання
+                забрудненню атмосферного повітря.</li>
+            </ul>
+            <div class="text-with-backround">
+                <p class="ovd-paragraph not-abzats">Суб'єкт господарювання для розроблення документів, у яких обґрунтовуються обсяги викидів, може залучати установи,
+                організації та заклади, яким<span class="column-span"> Міндовкілля надає право на розроблення цих документів.</span></p>
+            </div>
+                <div class="left-img-second left-img-pol-second">
+                    <img src="./images/pexels-olly.jpg" alt="project">
+                </div>
+            <p class="ovd-paragraph space">Крім того, суб’єкт господарювання <span class="underline">щороку</span> подає до дозвільного органу <span class="under">звіт</span>  про дотримання умов
+            дозволу на викиди та виконання заходів <span class="under">щодо здійснення контролю за дотриманням встановлених
+            гранично допустимих викидів забруднюючих речовин.</span></p>
+            <p class="ovd-paragraph">Отримання дозволу на викиди забруднюючих речовин — <span class="under">багатоетапна й кропітка процедура,</span> що потребує високої кваліфікації,
+            проходження курсів фахівцями та отримання ними Свідоцтва, а також внесення компанії до переліку Мінприроди тих установ
+            та організацій, які здійснюють розробку документів, що обґрунтовують обсяги викидів.</p>
+            <p class="ovd-paragraph">Тож доцільно звернутися до організації, яка має досвід, кваліфіковані карди та підготує й
+            супроводжуватиме документацію на всіх етапах аж до отримання дозволу.</p>
+        </article>
+    </section>
+            <section class="form-screen-contacts-ovd">
+                <h2 class="pre-form-title pol-title">Щоб поставити питання нашому фахівцю, заповніть, будь ласка, форму нижче.</h2>
+                <div class="container-form container-form-ovd" id="cont-form-ovd">
+                    <h2 class="form-header">
+                        Безкоштовна консультація фахівця
+                    </h2>
+                    <form id="contactForm" class="form-container form-contacts ovd-form">
+                        <h2 class="form-headers">
+                            Безкоштовна консультація фахівця
+                        </h2>
+                        <input class="input cont-form-ovd" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                        <span class="error" id="nameError"></span>
+            
+                        <input class="input cont-form-ovd" type="text" id="phone" name="phone" placeholder="Ваш номер телефона"
+                            required>
+                        <span class="error" id="phoneError"></span>
+            
+                        <input class="input cont-form-ovd" type="email" id="email" name="email" placeholder="Ваш email" required>
+                        <span class="error" id="emailError"></span>
+            
+                        <textarea class="text-area cont-form-ovd" id="message" name="message" placeholder="Ваше повідомлення"
+                            required></textarea>
+                        <span class="error" id="messageError"></span>
+                        <button class="form-button" type="submit">Відправити</button>
+                    </form>
+                    <div class="img-block">
+                        <img src="./images/pexels-cottonbro-1.jpg" alt="hands">
+                    </div>
+                </div>
+            </section>
+            <footer class="footer footer-ovd">
+                <div class="footer-container">
+                    <img src="./images/ecovector-logo-white-2.png" class="footer-logo" alt="logo">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <p class="footer-contacts-link">м. Київ, вул. Бориспільська 9е
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-map-marker" width="16" height="16"></use>
+                                </svg>
+                            </p>
+                        </li>
+                        <li class="footer-item">
+                            <a href="mailto:info@ecovector.com.ua" class="footer-contacts-link">info@ecovector.com.ua
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-envelope" width="16" height="16"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="tel:+380961111111" class="footer-contacts-link">+38 096 111 11 11
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-smartphone" width="16" height="16"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="submit" class="fas fa-arrow-up btn"></button>
+            </footer>
+</main>
+    <script src="https://cdn.jsdelivr.net/npm/notiflix"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/numbers.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/form-sender.js"></script>
+</body>
+</html>
