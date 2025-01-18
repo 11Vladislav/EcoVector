@@ -44,10 +44,6 @@
     text-decoration: underline;
 }
 
-.main-title>span{
-    font-weight: 400;
-    text-decoration: none;
-}
 
 .left-img-mob{
     @media screen and (min-width: $desktop) {
@@ -104,6 +100,7 @@
     margin-left: auto;
     margin-top: 60px;
     margin-bottom: 15px;
+    margin-left: 15px;
 }
 
 .ovd-list-number{
@@ -136,6 +133,8 @@
 }
 
 .text-columns{
+    margin-top: 50px;
+    margin-bottom: 50px;
     background-image: url(../images/ovd-desktop-background.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -189,7 +188,10 @@
 
 .text-backround{
     padding: 5px;
-    background-color: $alt-background-color; 
+    margin: 0 auto;
+    max-width: 85%;
+    background-color: $text-background; 
+    border-radius: 5px;
 }
 .last{
     text-align: justify;
@@ -238,7 +240,7 @@
 
 
 .cont-form-ovd{
-    background-color: $alt-background-color;
+    background-color: $text-background;
 }
 
 .img-block{

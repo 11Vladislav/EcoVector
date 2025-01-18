@@ -1630,11 +1630,6 @@ button:focus {
   text-decoration: underline;
 }
 
-.main-title > span {
-  font-weight: 400;
-  text-decoration: none;
-}
-
 @media screen and (min-width: 768px) {
   .left-img-mob {
     display: none;
@@ -1694,6 +1689,7 @@ button:focus {
   margin-left: auto;
   margin-top: 60px;
   margin-bottom: 15px;
+  margin-left: 15px;
 }
 
 .ovd-list-number {
@@ -1725,6 +1721,8 @@ button:focus {
 }
 
 .text-columns {
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-image: url(../images/ovd-desktop-background.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -1776,7 +1774,10 @@ button:focus {
 
 .text-backround {
   padding: 5px;
-  background-color: #f8e2c9;
+  margin: 0 auto;
+  max-width: 85%;
+  background-color: #ccb596;
+  border-radius: 5px;
 }
 
 .last {
@@ -1828,7 +1829,7 @@ button:focus {
 }
 
 .cont-form-ovd {
-  background-color: #f8e2c9;
+  background-color: #ccb596;
 }
 
 .img-block {
@@ -1877,12 +1878,14 @@ button:focus {
   margin-bottom: 15px;
   padding: 15px;
   background-color: #f8e2c9;
+  border-radius: 8px;
 }
 @media screen and (min-width: 768px) {
   .text-with-backround {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 100px;
-    margin-left: 35px;
+    margin-left: 75px;
+    max-width: 85%;
   }
 }
 
@@ -1908,6 +1911,11 @@ button:focus {
   text-indent: 0;
 }
 
+.pol-right-img {
+  margin-top: 0;
+  margin-left: 25px;
+}
+
 .space {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -1921,6 +1929,6 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .pol-title {
-    margin-top: 20px;
+    margin-top: 75px;
   }
 }/*# sourceMappingURL=main.css.map */
