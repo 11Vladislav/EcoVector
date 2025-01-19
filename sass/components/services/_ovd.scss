@@ -149,7 +149,6 @@
 }
 
 .text-columns{
-    padding: 15px 15px;
     margin-bottom: 15px;
     background-image: url(../images/background-desktop-sceen.png);
     background-size: cover;
@@ -165,7 +164,7 @@
         margin-top: 25px;
         display: flex;
         flex-direction: column;
-        
+        padding: 15px 15px;
         @media screen and (min-width: $desktop) {
                 margin-top: 25px;
                 padding: 50px 0;
@@ -220,7 +219,7 @@
 }
 
 .colum-paragraph{
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
