@@ -149,11 +149,8 @@
 }
 
 .text-columns{
-    margin-bottom: 15px;
-    background-image: url(../images/background-desktop-sceen.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: contain;
+    margin-bottom: 35px;
+    background: linear-gradient($marks-color, $alt-background-color);;
     @media screen and (min-width: $desktop) {
         margin-bottom: 50px;
         margin-top: 50px;

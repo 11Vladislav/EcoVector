@@ -1746,11 +1746,8 @@ button:focus {
 }
 
 .text-columns {
-  margin-bottom: 15px;
-  background-image: url(../images/background-desktop-sceen.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: contain;
+  margin-bottom: 35px;
+  background: linear-gradient(#bd9479, #f8e2c9);
 }
 @media screen and (min-width: 768px) {
   .text-columns {
@@ -1891,7 +1888,7 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .pol-list {
-    margin-top: 50px;
+    margin-top: 70px;
   }
 }
 
