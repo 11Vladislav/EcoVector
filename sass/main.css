@@ -1700,7 +1700,7 @@ button:focus {
 }
 
 .right-img {
-  margin-top: 60px;
+  margin-top: 30px;
 }
 @media screen and (min-width: 768px) {
   .right-img {
@@ -1746,7 +1746,9 @@ button:focus {
 }
 
 .text-columns {
-  background-image: url(../images/ovd-desktop-background.png);
+  padding: 15px 15px;
+  margin-bottom: 15px;
+  background-image: url(../images/background-desktop-sceen.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: contain;
@@ -1948,6 +1950,7 @@ button:focus {
 
 .not-abzats {
   text-indent: 0;
+  text-align: justify;
 }
 
 .pol-right-img {
