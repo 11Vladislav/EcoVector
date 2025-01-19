@@ -24,7 +24,7 @@
 }
 
 .ovd-item{
-    padding: 5px;
+  
     margin: 5px;
     display: flex;
     font-size: 16px;
@@ -46,6 +46,7 @@
 
 
 .left-img-mob{
+
     @media screen and (min-width: $desktop) {
         display: none;
     }
@@ -65,10 +66,14 @@
     max-width: fit-content;
     margin-top: 30px;
     margin-bottom: 10px;
-    margin-left: 50px;
+   text-align: center;
     font-size: 20px;
     font-weight: 700;
     color: $title-color;
+    @media screen and (min-width: $desktop) {
+        margin-left: 50px;
+        text-align: left;
+    }
     
 }
 
@@ -88,19 +93,24 @@
     max-width: fit-content;
     margin-top: 45px;
     margin-bottom: 10px;
-    margin-left: 50px;
+    text-align: center;
     font-size: 20px;
     font-weight: 700;
     color: $title-color;
+    @media screen and (min-width: $desktop) {
+        margin-left: 50px;
+        text-align: left;
+    }
 }
 
 .right-img{
-    max-width: 700px;
-    float: right;
-    margin-left: auto;
     margin-top: 60px;
-    margin-bottom: 15px;
-    margin-left: 15px;
+    @media screen and (min-width: $desktop) {
+        max-width: 700px;
+        float: right;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
 }
 
 .ovd-list-number{
@@ -119,6 +129,12 @@
     color: $marks-color;
 }
 
+.list-number{
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
 .list-number-item{
     margin: 15px 0;
 }
@@ -133,12 +149,14 @@
 }
 
 .text-columns{
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-image: url(../images/ovd-desktop-background.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: contain;
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 }
 
 .column-wrapper{
@@ -148,15 +166,11 @@
         
         @media screen and (min-width: $desktop) {
                 margin-top: 25px;
-        
                 padding: 50px 0;
                 flex-direction: row;
                 justify-content: space-around;
-                
-
      }
 }
-
 
 .column{
     max-width: 100%;
@@ -187,11 +201,13 @@
 }
 
 .text-backround{
-    padding: 5px;
+    padding: 15px 15px;
     margin: 0 auto;
-    max-width: 85%;
-    background-color: $text-background; 
+    background-color: $alt-background-color; 
     border-radius: 5px;
+        @media screen and (min-width: $desktop) {
+            max-width: 85%;
+        }
 }
 .last{
     text-align: justify;
@@ -212,14 +228,17 @@
 
 
 .info{
-    margin-top: 60px;
-    margin-left: 25px;
-    margin-right: 25px;
-    padding: 5px;
     max-width: 40px;
     max-height: 40px;
+    margin-left: 45%;
     fill: $heading-color;
-    float: left;
+    @media screen and (min-width: $desktop) {
+        margin-top: 60px;
+        padding: 5px;
+        float: left;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
 }
 
 .pre-form-title{

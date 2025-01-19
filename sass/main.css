@@ -20,6 +20,11 @@ ul {
   list-style-type: none;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
   background-color: transparent;
@@ -1611,7 +1616,6 @@ button:focus {
 }
 
 .ovd-item {
-  padding: 5px;
   margin: 5px;
   display: flex;
   font-size: 16px;
@@ -1654,10 +1658,16 @@ button:focus {
   max-width: fit-content;
   margin-top: 30px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  text-align: center;
   font-size: 20px;
   font-weight: 700;
   color: #6f491f;
+}
+@media screen and (min-width: 768px) {
+  .ovd-heading {
+    margin-left: 50px;
+    text-align: left;
+  }
 }
 
 .ovd-accent {
@@ -1677,19 +1687,28 @@ button:focus {
   max-width: fit-content;
   margin-top: 45px;
   margin-bottom: 10px;
-  margin-left: 50px;
+  text-align: center;
   font-size: 20px;
   font-weight: 700;
   color: #6f491f;
 }
+@media screen and (min-width: 768px) {
+  .ovd-heading-second {
+    margin-left: 50px;
+    text-align: left;
+  }
+}
 
 .right-img {
-  max-width: 700px;
-  float: right;
-  margin-left: auto;
   margin-top: 60px;
-  margin-bottom: 15px;
-  margin-left: 15px;
+}
+@media screen and (min-width: 768px) {
+  .right-img {
+    max-width: 700px;
+    float: right;
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
 }
 
 .ovd-list-number {
@@ -1707,6 +1726,12 @@ button:focus {
   color: #bd9479;
 }
 
+.list-number {
+  margin-left: 20px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
 .list-number-item {
   margin: 15px 0;
 }
@@ -1721,12 +1746,16 @@ button:focus {
 }
 
 .text-columns {
-  margin-top: 50px;
-  margin-bottom: 50px;
   background-image: url(../images/ovd-desktop-background.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: contain;
+}
+@media screen and (min-width: 768px) {
+  .text-columns {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
 }
 
 .column-wrapper {
@@ -1773,11 +1802,15 @@ button:focus {
 }
 
 .text-backround {
-  padding: 5px;
+  padding: 15px 15px;
   margin: 0 auto;
-  max-width: 85%;
-  background-color: #ccb596;
+  background-color: #f8e2c9;
   border-radius: 5px;
+}
+@media screen and (min-width: 768px) {
+  .text-backround {
+    max-width: 85%;
+  }
 }
 
 .last {
@@ -1800,14 +1833,19 @@ button:focus {
 }
 
 .info {
-  margin-top: 60px;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding: 5px;
   max-width: 40px;
   max-height: 40px;
+  margin-left: 45%;
   fill: #538135;
-  float: left;
+}
+@media screen and (min-width: 768px) {
+  .info {
+    margin-top: 60px;
+    padding: 5px;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
 }
 
 .pre-form-title {
@@ -1844,7 +1882,6 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .pol-img {
-    margin-top: 25px;
     margin-right: 25px;
     max-width: 450px;
   }
@@ -1857,8 +1894,8 @@ button:focus {
 }
 
 .pollution-text {
-  padding-top: 40px;
-  padding-left: 0;
+  padding-top: 25px;
+  padding-left: 15px;
 }
 
 .pollution-accent {
@@ -1867,7 +1904,7 @@ button:focus {
 }
 
 .pollution-text-block {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .abzats {
