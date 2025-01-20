@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav">
+                <a class="logo" href="./index.html" lang="en">
+                    <img src="./images/ecovector-logo-brown-1.png" class="logo__image" alt="logo">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="./index.html">Головна
+                        </a>
+                    </li>
+                    <li class="nav__item dropdown">
+                        <a class="nav__link" href="#" id="services">Послуги
+                            <ul class="submenu">
+                                <li class="submenu-menu__item">
+                                    <a href="./pollution.html" class="submenu__link">Дозвіл на викиди в атмосферу</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Дозвіл на спецводокористування</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./ovd.html" class="submenu__link">Оцінка впливу на довкілля (ОВД)</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Дозвіл на оброблення відходів</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./trash.html" class="submenu__link">План управління відходами</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="#" class="submenu__link">Декларація про відходи</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./contacts.html">Контакти
+                        </a>
+                    </li>
+                </ul>
+                <select id="languageSelect" class="language-select">
+                    <option value="ua" selected>УКР</option>
+                    <option value="en">ENG</option>
+                </select>
+
+                <button type="button" class="menu__open">
+                    <svg class="menu__open__btn" data-mobile-menu-open>
+                        <use href="./images/icons.svg#icon-mob-menu-btn" width="32" height="24"></use>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        <div class="mobile-menu is-hidden" data-mobile-menu>
+            <div class="container">
+                <button type="button" class="menu__close">
+                    <svg class="menu__close__btn" data-mobile-menu-close>
+                        <use href="./images/icons.svg#icon-close_mob_menu" width="19" height="19"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="./index.html" class="mobile-menu__link">Головна</a>
+                    </li>
+                    <li class="mobile-menu__item mobile-dropdown">
+                        <a href="#" class="mobile-menu__link">Послуги <span>V</span></a>
+                        <ul class="mobile-submenu hidden">
+                            <li><a href="./pollution.html">Дозвіл на викиди в атмосферу</a></li>
+                            <li><a href="#">Дозвіл на спецводокористування</a></li>
+                            <li><a href="./ovd.html">Оцінка впливу на довкілля (ОВД)</a></li>
+                            <li><a href="#">Дозвіл на оброблення відходів</a></li>
+                            <li><a href="./trash.html">План управління відходами</a></li>
+                            <li><a href="#">Декларація про відходи</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./contacts.html" class="mobile-menu__link">Контакти</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu__bottom">
+                    <ul class="mobile-contacts__list">
+                        <li class="mobile-contacts__item">
+                            <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--big">+38 096 111
+                                11
+                                11</a>
+                        </li>
+                        <li class="mobile-contacts__item">
+                            <a href="mailto:info@ecovector.com.ua" class="mobile-contacts__link">info@ecovector.com.ua</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="trash-controll">
+            <div class="left-img left-img-trash">
+                <img src="./images/workers.jpg" alt="workers">
+            </div>
+            
+            <article class="ovd-text trash-text">
+                <p class="ovd-paragraph">
+                    <span class="main-title trash-title">Плани управління відходами</span> підприємств, 
+                    установ та організацій розробляються відповідно до <span class="trash-accent">
+                        <a href="https://zakon.rada.gov.ua/laws/show/2320-20#Text" target="_blank">статті 53 Закону України 
+                            «Про управління відходами» підприємствами</a></span>, установами та організаціями усіх форм власності, які є:
+                </p>
+                    <p class="trash-item">утворювачами відходів, що подають декларацію про відходи відповідно до 
+                    <span class="trash-accent"><a href="https://zakon.rada.gov.ua/laws/show/2320-20#n664" target="_blank">частини першої</a></span>
+                    статті 45 Закону України «Про управління відходами»;</p>
+                    <p class="trash-item">суб’єктами господарювання у сфері управління відходами.</p>
+                    <div class="right-img trash-right-img">
+                        <img src="./images/icons-list.jpg" alt="icon list">
+                    </div>
+                <div class="trash-text-block">
+                    <p class="ovd-paragraph">Відповідно розділу ІІ п. 1 
+                        <span class="ovd-accent"><a href="https://zakon.rada.gov.ua/laws/show/z1446-24#Text" target="_blank">
+                            “Порядку розроблення планів управління відходами підприємств, установ та організацій”</a></span>,
+                    затвердженого Наказом Міністерства захисту довкілля та природних ресурсів України від 09 серпня 2024 року № 1003,
+                    розроблення та затвердження плану управління відходами здійснюється підприємствами, установами та організаціями<span class="column-span"> протягом
+                    <span class="column-span-bold">6 місяців </span>з дня набрання чинності цього Порядку</span>.
+                    </p>
+                    <p class="ovd-paragraph">План управління відходами затверджується розпорядчим документом такого підприємства, установи та організації.
+                    </p>
+                </div>
+
+                <div class="trash-text-block second">
+                    <p class="ovd-paragraph"><span class="pollution-accent">Кому необхідний план:</span> суб’єктам господарювання, які подають декларацію про відходи, та суб’єктам господарювання у сфері
+                    управління відходами.</p>
+                    <p class="ovd-paragraph"><span class="pollution-accent">Термін дії:</span> 5 років (у разі відсутності нових відходів та зміни обсягів наявних більше ніж на 20%).</p>
+                    <p class="ovd-paragraph">Розділи, які мають входити до плану управління відходами, наведені в п. 4 
+                        <span class="ovd-accent"><a href="https://zakon.rada.gov.ua/laws/show/z1446-24#Text" target="_blank">
+                            “Порядку розроблення планів управління відходами підприємств, установ та організацій”.
+                        </a>
+                    </span>  
+                    </p>
+                </div>
+                <div class="text-with-backround trash-background">
+                    <p class="ovd-paragraph not-abzats">Якщо підприємство, установа та організація у своєму складі має 
+                        <span class="column-span">філії</span> або інші <span class="column-span">відокремлені підрозділи</span> без статусу
+                    юридичної особи (об’єкт утворення та/або оброблення відходів), що розташовані <span class="column-span">в різних територіальних громадах,
+                    кількість планів</span>  управління відходами такого підприємства, установи та організації<span class="column-span">має відповідати кількості
+                    територіальних громад</span>, де вони розташовані.</p>
+                </div>
+            </article>
+            <ul class="trash-gallery">
+                <li class="gallery-item"><img src="./images/tv-onwheels.jpg" alt="tv"></li>
+                <li class="gallery-item"><img src="./images/dreds-girl-2.jpg" alt="dreds girl"></li>
+                <li class="gallery-item"><img src="./images/trash-container.jpg" alt="trash container"></li>
+                <li class="gallery-item"><img src="./images/dreds-girl.jpg" alt="dreds girl"></li>
+            </ul>
+            <div class="trash-text-block third">
+                <p class="ovd-paragraph">План управління відходами є життєво важливим інструментом для будь-якої організації, яка прагне ефективно та екологічно управляти
+                своїми відходами.</p>
+                <p class="ovd-paragraph">Простіше кажучи, це — стратегічний підхід до  поводження з відходами від їх утворення до остаточної утилізації, що забезпечує мінімальний вплив на навколишнє
+                середовище та дотримання нормативних вимог.</p>
+                <p class="ovd-paragraph">План управління відходами глибше занурюється в питання відповідального поводження з відходами, визначає, хто
+                які аспекти контролює, надає приблизні обсяги та класифікацію відходів, документує фактичні цифри.</p>
+                <p class="ovd-paragraph">Ефективний план управління відходами також дає можливість розробникам, підрядникам та їхнім клієнтам діяти з
+                метою збереження довкілля шляхом зменшення відходів, особливо у виробничих галузях, заощадити кошти бізнесу,
+                збільшити прибутки.</p>
+                <p class="ovd-paragraph">Тож доцільно звернутися до організації, яка має досвід, кваліфіковані карди й ґрунтовно та якісно підготує план
+                управління відходами відповідно до Порядку.</p>
+        </section>
+        <div class="pre-footer-img meeting-img">
+            <img src="./images/meeting.jpg" alt="meeting" />
+        </div>
+<section class="form-screen-contacts-ovd">
+    <h2 class="pre-form-title">Щоб поставити питання нашому фахівцю, заповніть, будь ласка, форму нижче</h2>
+    <div class="container-form container-form-ovd" id="cont-form-ovd">
+        <h2 class="form-header">
+            Безкоштовна консультація фахівця
+        </h2>
+        <form id="contactForm" class="form-container form-contacts ovd-form">
+            <h2 class="form-headers">
+                Безкоштовна консультація фахівця
+            </h2>
+            <input class="input cont-form-ovd" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+            <span class="error" id="nameError"></span>
+
+            <input class="input cont-form-ovd" type="text" id="phone" name="phone" placeholder="Ваш номер телефона"
+                required>
+            <span class="error" id="phoneError"></span>
+
+            <input class="input cont-form-ovd" type="email" id="email" name="email" placeholder="Ваш email" required>
+            <span class="error" id="emailError"></span>
+
+            <textarea class="text-area cont-form-ovd" id="message" name="message" placeholder="Ваше повідомлення"
+                required></textarea>
+            <span class="error" id="messageError"></span>
+            <button class="form-button" type="submit">Відправити</button>
+        </form>
+        <div class="img-block">
+            <img src="./images/pexels-cottonbro-1.jpg" alt="hands">
+        </div>
+    </div>
+</section>
+<footer class="footer footer-ovd">
+    <div class="footer-container">
+        <img src="./images/ecovector-logo-white-2.png" class="footer-logo" alt="logo">
+        <ul class="footer-list">
+            <li class="footer-item">
+                <p class="footer-contacts-link">м. Київ, вул. Бориспільська 9е
+                    <svg class="connect__icons">
+                        <use href="./images/icons.svg#icon-map-marker" width="16" height="16"></use>
+                    </svg>
+                </p>
+            </li>
+            <li class="footer-item">
+                <a href="mailto:info@ecovector.com.ua" class="footer-contacts-link">info@ecovector.com.ua
+                    <svg class="connect__icons">
+                        <use href="./images/icons.svg#icon-envelope" width="16" height="16"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="tel:+380961111111" class="footer-contacts-link">+38 096 111 11 11
+                    <svg class="connect__icons">
+                        <use href="./images/icons.svg#icon-smartphone" width="16" height="16"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <button type="submit" class="fas fa-arrow-up btn"></button>
+</footer>
+    </main> 
+    <script src="https://cdn.jsdelivr.net/npm/notiflix"></script>
+    <script src="js/mobile-menu.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/numbers.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/form-sender.js"></script>
+</body>
+</html>
