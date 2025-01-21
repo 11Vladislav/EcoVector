@@ -2072,7 +2072,6 @@ button:focus {
     align-content: flex-start;
     align-items: center;
     overflow: hidden;
-    max-height: 280px;
   }
 }
 
@@ -2081,8 +2080,8 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .gallery-item {
-    width: 350px;
-    height: 300px;
+    max-width: 350px;
+    max-height: 280px;
     overflow-y: hidden;
     flex-shrink: 1;
   }

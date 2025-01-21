@@ -88,15 +88,15 @@
         align-content: flex-start;
         align-items: center;
         overflow: hidden;
-        max-height: 280px;
+        
     }
 }
 
 .gallery-item{
     max-width: 100%;
     @media screen and (min-width: $desktop) {
-        width: 350px;
-        height: 300px;
+        max-width: 350px;
+        max-height: 280px;
         overflow-y: hidden;
         flex-shrink: 1;
     }
