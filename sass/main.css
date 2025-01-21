@@ -2030,10 +2030,11 @@ button:focus {
 }
 
 .trash-right-img {
-  max-width: 100%;
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .trash-right-img {
+    display: block;
     margin-top: 100px;
     margin-left: 25px;
     max-width: 300px;
@@ -2102,4 +2103,60 @@ button:focus {
 
 .meeting-img {
   margin-bottom: 25px;
+}
+
+.permission-texts {
+  padding: 20px 10px;
+}
+
+.bold-accent {
+  font-weight: 700;
+}
+
+@media screen and (min-width: 768px) {
+  .permission-right-img {
+    max-width: 450px;
+  }
+}
+
+.permission-img-two {
+  margin-left: auto;
+  width: 550px;
+}
+
+.permission-accent {
+  display: inline-block;
+  font-size: 16px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.perm-container {
+  gap: 0;
+  justify-content: flex-end;
+}
+
+.permission-text {
+  padding: 15px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+.trash-background {
+  max-width: 750px;
+}
+
+.perm-img-right {
+  max-width: 100%;
 }/*# sourceMappingURL=main.css.map */
