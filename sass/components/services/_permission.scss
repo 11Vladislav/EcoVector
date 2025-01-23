@@ -1,9 +1,15 @@
 .permission-texts{
-    padding: 20px 10px;
+    padding: 20px 15px;
 }
 
 .bold-accent{
     font-weight: 700;
+}
+
+.left-img-trash{
+    @media screen and (max-width: $desktop) {
+        width: 100%;
+    }
 }
 
 .permission-right-img{
@@ -51,5 +57,9 @@
 }
 
 .perm-img-right{
-    max-width: 100%;
+    display: none;
+    @media screen and (min-width: $desktop) {
+        display: block;
+        max-width: 100%;
+    }
 }

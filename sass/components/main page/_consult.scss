@@ -72,3 +72,23 @@
         margin-bottom: 15px;
     }
 }
+
+.page-header-block{
+    text-align: center;
+    background-color: $alt-background-color;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    @media screen and (min-width: $desktop) {
+        max-width: 750px;
+        margin-left: 40%;;
+    }
+}
+
+.page-header-text{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $title-color;
+    @media screen and (min-width: $desktop) {
+        font-size: 25px;
+    }
+}
