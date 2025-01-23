@@ -78,6 +78,7 @@
     background-color: $alt-background-color;
     margin-bottom: 15px;
     border-radius: 5px;
+    
     @media screen and (min-width: $desktop) {
         max-width: 750px;
         margin-left: 40%;;
@@ -88,6 +89,7 @@
     font-size: 20px;
     text-transform: uppercase;
     color: $title-color;
+    padding: 10px;
     @media screen and (min-width: $desktop) {
         font-size: 25px;
     }

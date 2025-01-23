@@ -1245,6 +1245,7 @@ button:focus {
   font-size: 20px;
   text-transform: uppercase;
   color: #6f491f;
+  padding: 10px;
 }
 @media screen and (min-width: 768px) {
   .page-header-text {
