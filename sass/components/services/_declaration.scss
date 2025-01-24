@@ -1,0 +1,26 @@
+.left-img-declaration {
+    display: block;
+    max-width: 100%;
+
+    @media screen and (min-width: $desktop) {
+        max-width: 350px;
+        margin-right: 25px;
+    }
+}
+
+.declaration-background{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.declaration-gallery{
+    margin-bottom: 25px;
+    @media screen and (min-width: $desktop) {
+     margin-bottom: 50px;
+    }
+}
+
+.decl-last{
+    margin-bottom: 35px;
+    margin-left: 15px;
+}

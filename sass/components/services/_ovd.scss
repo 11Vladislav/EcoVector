@@ -80,13 +80,9 @@
 .ovd-accent{
     color: $heading-color;
     text-decoration: underline;
-}
-
-.ovd-accent>a:visited{
-    color: $heading-color;
-    text-decoration: underline;
     cursor: pointer;
 }
+
 
 .ovd-heading-second{
     display: inline-block;

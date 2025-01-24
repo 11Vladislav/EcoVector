@@ -1457,15 +1457,15 @@ button:focus {
   margin-right: 10px;
 }
 
-.wrapper {
+.wrapper-contacts {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
   margin-bottom: 70px;
 }
 @media screen and (min-width: 768px) {
-  .wrapper {
+  .wrapper-contacts {
     max-width: 100%;
     flex-direction: row;
     align-items: center;
@@ -1696,11 +1696,6 @@ button:focus {
 }
 
 .ovd-accent {
-  color: #538135;
-  text-decoration: underline;
-}
-
-.ovd-accent > a:visited {
   color: #538135;
   text-decoration: underline;
   cursor: pointer;
@@ -2197,4 +2192,34 @@ button:focus {
     display: block;
     max-width: 100%;
   }
+}
+
+.left-img-declaration {
+  display: block;
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .left-img-declaration {
+    max-width: 350px;
+    margin-right: 25px;
+  }
+}
+
+.declaration-background {
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.declaration-gallery {
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .declaration-gallery {
+    margin-bottom: 50px;
+  }
+}
+
+.decl-last {
+  margin-bottom: 35px;
+  margin-left: 15px;
 }/*# sourceMappingURL=main.css.map */
