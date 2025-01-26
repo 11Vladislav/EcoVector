@@ -2241,4 +2241,8 @@ button:focus {
 
 .wastewater-gallery {
   margin: 25px 0;
+}
+
+.wastewater-gallery-item {
+  max-height: 265px;
 }/*# sourceMappingURL=main.css.map */
