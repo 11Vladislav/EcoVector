@@ -2227,4 +2227,18 @@ button:focus {
 .decl-last {
   margin-bottom: 35px;
   margin-left: 15px;
+}
+
+.waste-water-img {
+  display: block;
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .waste-water-img {
+    max-width: 400px;
+  }
+}
+
+.wastewater-gallery {
+  margin: 25px 0;
 }/*# sourceMappingURL=main.css.map */

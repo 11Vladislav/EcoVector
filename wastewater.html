@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVector</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./sass/main.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <nav class="nav">
+                <a class="logo" href="./index.html" lang="en">
+                    <img src="./images/ecovector-logo-brown-1.png" class="logo__image" alt="logo">
+                </a>
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="./index.html">Головна
+                        </a>
+                    </li>
+                    <li class="nav__item dropdown">
+                        <a class="nav__link" href="#" id="services">Послуги
+                            <ul class="submenu">
+                                <li class="submenu-menu__item">
+                                    <a href="./pollution.html" class="submenu__link">Дозвіл на викиди в атмосферу</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./wastewater.html" class="submenu__link">Дозвіл на спецводокористування</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./ovd.html" class="submenu__link">Оцінка впливу на довкілля (ОВД)</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./permission.html" class="submenu__link">Дозвіл на оброблення відходів</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./trash.html" class="submenu__link">План управління відходами</a>
+                                </li>
+                                <li class="submenu-menu__item">
+                                    <a href="./declaration.html" class="submenu__link">Декларація про відходи</a>
+                                </li>
+                            </ul>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="./contacts.html">Контакти
+                        </a>
+                    </li>
+                </ul>
+                <select id="languageSelect" class="language-select">
+                    <option value="ua" selected>УКР</option>
+                    <option value="en">ENG</option>
+                </select>
+
+                <button type="button" class="menu__open">
+                    <svg class="menu__open__btn" data-mobile-menu-open>
+                        <use href="./images/icons.svg#icon-mob-menu-btn" width="32" height="24"></use>
+                    </svg>
+                </button>
+            </nav>
+        </div>
+        <div class="mobile-menu is-hidden" data-mobile-menu>
+            <div class="container">
+                <button type="button" class="menu__close">
+                    <svg class="menu__close__btn" data-mobile-menu-close>
+                        <use href="./images/icons.svg#icon-close_mob_menu" width="19" height="19"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__list">
+                    <li class="mobile-menu__item">
+                        <a href="./index.html" class="mobile-menu__link">Головна</a>
+                    </li>
+                    <li class="mobile-menu__item mobile-dropdown">
+                        <a href="#" class="mobile-menu__link">Послуги&nbsp;&nbsp; v</a>
+                        <ul class="mobile-submenu hidden">
+                            <li><a href="./pollution.html">Дозвіл на викиди в атмосферу</a></li>
+                            <li><a href="./wastewater.html">Дозвіл на спецводокористування</a></li>
+                            <li><a href="./ovd.html">Оцінка впливу на довкілля (ОВД)</a></li>
+                            <li><a href="./permission.html">Дозвіл на оброблення відходів</a></li>
+                            <li><a href="./trash.html">План управління відходами</a></li>
+                            <li><a href="./declaration.html">Декларація про відходи</a></li>
+                        </ul>
+                    </li>
+                    <li class="mobile-menu__item">
+                        <a href="./contacts.html" class="mobile-menu__link">Контакти</a>
+                    </li>
+                </ul>
+                <div class="mobile-menu__bottom">
+                    <ul class="mobile-contacts__list">
+                        <li class="mobile-contacts__item">
+                            <a href="tel:+380961111111" class="mobile-contacts__link mobile-contacts__link--big">+38 096
+                                111 11
+                                11</a>
+                        </li>
+                        <li class="mobile-contacts__item">
+                            <a href="mailto:info@ecovector.com.ua"
+                                class="mobile-contacts__link">info@ecovector.com.ua</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="wastewater">
+            <div class="left-img waste-water-img">
+                <img src="./images/waste-water-3.jpg" alt="pipe">
+            </div>
+                <div class="page-header-block">
+                    <h1 class="page-header-text">Дозвіл на спецводокористування</h1>
+                </div>
+            <article class="ovd-text pollution-text">
+                <p class="ovd-paragraph">Відповідно до п. 9 ст. 44 <a href="https://zakon.rada.gov.ua/laws/show/213/95-%D0%B2%D1%80#top" class="ovd-accent" target="_blank">Водного Кодексу України</a> 
+                    водокористувачі зобов'язані здійснювати спеціальне водокористування
+                <span class="column-span">лише за наявності дозволу.</span>
+                </p>
+                <p class="ovd-paragraph"><span class="main-title trash-title">Спеціальне водокористування</span>— це забір води з водних об'єктів із застосуванням споруд або технічних пристроїв, використання води та скидання
+                забруднюючих речовин у водні об'єкти, включаючи забір води та скидання забруднюючих речовин зі зворотними водами із
+                застосуванням каналів.
+                </p>
+                <p class="ovd-paragraph not-abzats"><span class="pollution-accent">Кому необхідний дозвіл:</span> 
+                    суб’єктам господарювання, які використовують воду в об’ємі від <span class="main-title trash-title">5 м3 на добу</span>.</p>
+                <p class="ovd-paragraph">Спеціальне водокористування здійснюється юридичними і фізичними особами насамперед для задоволення питних потреб
+                населення, а також для господарсько-побутових, лікувальних, оздоровчих, сільськогосподарських, промислових,
+                транспортних, енергетичних, рибогосподарських (у т. ч. для цілей аквакультури) та ін. державних і громадських потреб.
+                </p>
+                <p class="ovd-paragraph">Спеціальне водокористування є платним та здійснюється на підставі дозволу на спеціальне водокористування.
+                </p>
+                <p class="ovd-paragraph">У дозволі на спеціальне водокористування встановлюються <span class="column-span">ліміт забору води</span>,
+                    <span class="column-span">ліміт використання води</span> та <span class="column-span">ліміт скидання
+                    </span> забруднюючих речовин. У разі настання маловоддя ці ліміти можуть бути зменшені органом, що видав дозвіл, без коригування
+                дозволу на спеціальне водокористування.</p>
+                <ul class="ovd-list">
+                    <span class="pollution-accent abzats">Термін дії дозволу:</span>
+                    <li class="ovd-item">короткостроковий: на <span class="pollution-accent">&nbsp;3&nbsp;</span>роки;</li>
+                    <li class="ovd-item">довгостроковий: від <span class="pollution-accent">&nbsp;3&nbsp; </span>&nbsp;до&nbsp;<span class="pollution-accent"> 25 </span> років.</li>
+                </ul>
+                <p class="ovd-paragraph">У разі необхідності строк спеціального водокористування може бути продовжено на період, що не перевищує відповідно
+                короткострокового або довгострокового водокористування.</p>
+                <div class="text-backround declaration-background">
+                    <p class="ovd-paragraph not-abzats">Водокористувачі, яким видано дозвіл 
+                        на спеціальне водокористування, мають право скидати зворотні води в орендовані водні
+                    об’єкти за умови, що при цьому <span class="column-span">не перевищуються нормативи гранично допустимого</span> 
+                    скидання забруднюючих речовин.</p>
+                </div>
+                <ul class="ovd-list">
+                    <span class="pollution-accent abzats">Орган, що видає дозвіл:</span>
+                    <li class="ovd-item">територіальними органами Держводагентства;</li>
+                    <li class="ovd-item">Держводагентство (у разі використання води водних об’єктів у зоні відчуження та зоні безумовного (обов’язкового)
+                    відселення території, що зазнала радіоактивного забруднення внаслідок Чорнобильської катастрофи).</li>
+                </ul>
+                <ul class="ovd-list">
+                    <p class="ovd-paragraph not-abzats"></p><span class="pollution-accent abzats">Види дозволів:</span> на спеціальне водокористування:</p>
+                    <li class="ovd-item">дозвіл на використання підземних вод (артезіанська свердловина),</li>
+                    <li class="ovd-item">дозвіл на поверхневий водозабір (з річки, ставка та ін.),</li>
+                    <li class="ovd-item">дозвіл на гранично-допустимий скид (ГДС) забруднюючих речовин у водні об’єкти (у разі скиду стічних вод у водні
+                    об’єкти).</li>
+                </ul>
+
+            <ul class="trash-gallery wastewater-gallery">
+                <li class="gallery-item"><img src="./images/waste-water-1.jpg" alt="waste-water"></li>
+                <li class="gallery-item"><img src="./images/waste-water-5.jpg" alt="waste-water"></li>
+                <li class="gallery-item"><img src="./images/waste-water-6.jpg" alt="waste-water"></li>
+                <li class="gallery-item"><img src="./images/waste-water-2.jpg" alt="waste-water"></li>
+            </ul>
+            <ul class="ovd-list">
+                        <p class="ovd-paragraph">Дозвільні органи зобов’язані протягом п’яти робочих днів з дня надходження заяви надіслати
+                            в електронній формі <span class="column-span">копії документів</span>щодо обґрунтування потреби у воді з помісячним
+                            нормативним розрахунком водокористування і водовідведення, а
+                            також опису та схем місць забору води та скидання зворотних вод до:
+                        </p>
+                <li class="ovd-item"><span class="main-title trash-title">Басейнового управління водних ресурсів України;</span></li>
+                <li class="ovd-item"><span class="main-title trash-title">Держгеонадр</span> — у разі використання підземних вод;</li>
+                <li class="ovd-item"><span class="main-title trash-title">МОЗ</span> — у разі використання вод водних об’єктів, віднесених до категорії лікувальних.</li>
+            </ul>
+            <p class="ovd-paragraph">Державні органи зобов’язані протягом п’ятнадцяти календарних днів з дня одержання в електронній формі копій документів
+            надати безоплатно органу, що приймає рішення про видачу дозволу на спеціальне водокористування,<span class="column-span">висновки</span> в електронній
+            формі <span class="column-span">щодо можливості його видачі</span>.
+            </p>
+          </article>
+            <div class="pre-footer-img">
+                <img src="./images/waste-water-4.jpg" alt="splash" />
+            </div>
+            <article class="ovd-text pollution-text">
+                <p class="ovd-paragraph">Отримання дозволу на спеціальне водокористування — 
+                    <span class="column-span">багатоетапна процедура</span>, що потребує високої кваліфікації.</p>
+                <p class="ovd-paragraph">Тож доцільно звернутися до організації, яка має досвід, кваліфіковані кадри та підготує й супроводжуватиме документацію
+                на всіх етапах аж до отримання дозволу.</p>
+            </article>
+        </section>
+            <section class="form-screen-contacts-ovd">
+                <h2 class="pre-form-title">Щоб поставити питання нашому фахівцю, заповніть, будь ласка, форму нижче</h2>
+                <div class="container-form container-form-ovd" id="cont-form-ovd">
+                    <h2 class="form-header">
+                        Безкоштовна консультація фахівця
+                    </h2>
+                    <form id="contactForm" class="form-container form-contacts ovd-form">
+                        <h2 class="form-headers">
+                            Безкоштовна консультація фахівця
+                        </h2>
+                        <input class="input cont-form-ovd" type="text" id="name" name="name" placeholder="Ваше ім'я" required>
+                        <span class="error" id="nameError"></span>
+            
+                        <input class="input cont-form-ovd" type="text" id="phone" name="phone" placeholder="Ваш номер телефона"
+                            required>
+                        <span class="error" id="phoneError"></span>
+            
+                        <input class="input cont-form-ovd" type="email" id="email" name="email" placeholder="Ваш email" required>
+                        <span class="error" id="emailError"></span>
+            
+                        <textarea class="text-area cont-form-ovd" id="message" name="message" placeholder="Ваше повідомлення"
+                            required></textarea>
+                        <span class="error" id="messageError"></span>
+                        <button class="form-button" type="submit">Відправити</button>
+                    </form>
+                    <div class="img-block">
+                        <img src="./images/pexels-cottonbro-1.jpg" alt="hands">
+                    </div>
+                </div>
+            </section>
+            <footer class="footer footer-ovd">
+                <div class="footer-container">
+                    <img src="./images/ecovector-logo-white-2.png" class="footer-logo" alt="logo">
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <p class="footer-contacts-link">м. Київ, вул. Бориспільська 9е
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-map-marker" width="16" height="16"></use>
+                                </svg>
+                            </p>
+                        </li>
+                        <li class="footer-item">
+                            <a href="mailto:info@ecovector.com.ua" class="footer-contacts-link">info@ecovector.com.ua
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-envelope" width="16" height="16"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="tel:+380961111111" class="footer-contacts-link">+38 096 111 11 11
+                                <svg class="connect__icons">
+                                    <use href="./images/icons.svg#icon-smartphone" width="16" height="16"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="submit" class="fas fa-arrow-up btn"></button>
+            </footer>
+            </main>
+            <script src="https://cdn.jsdelivr.net/npm/notiflix"></script>
+            <script src="js/mobile-menu.js"></script>
+            <script src="js/script.js"></script>
+            <script src="js/numbers.js"></script>
+            <script src="js/slider.js"></script>
+            <script src="js/form-sender.js"></script>
+            </body>
+            
+            </html>
