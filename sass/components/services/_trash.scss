@@ -97,10 +97,13 @@
     max-width: 100%;
     @media screen and (min-width: $desktop) {
         max-width: 350px;
-        max-height: 280px;
         overflow-y: hidden;
         flex-shrink: 1;
     }
+}
+
+.trash-gallery-item{
+    max-height: 280px;
 }
 
 .third{
