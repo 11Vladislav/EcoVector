@@ -1231,13 +1231,11 @@ button:focus {
 .page-header-block {
   text-align: center;
   background-color: #f8e2c9;
-  margin-bottom: 15px;
   border-radius: 5px;
 }
 @media screen and (min-width: 768px) {
   .page-header-block {
-    max-width: 750px;
-    margin-left: 40%;
+    max-width: 100%;
   }
 }
 
@@ -1908,7 +1906,7 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .pol-list {
-    margin-top: 70px;
+    margin-top: 40px;
   }
 }
 
@@ -1939,10 +1937,10 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .text-with-backround {
-    margin-top: 20px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 80px;
     margin-left: 25px;
-    max-width: 85%;
+    max-width: 50%;
   }
 }
 
@@ -1998,7 +1996,7 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .left-img-trash {
-    max-width: 450px;
+    max-width: 500px;
     margin-right: 25px;
   }
 }
@@ -2040,7 +2038,7 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .trash-text-block {
-    margin-top: 100px;
+    margin-top: 120px;
   }
 }
 
@@ -2066,7 +2064,7 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .second {
-    margin-top: 75px;
+    margin-top: 20px;
   }
 }
 
@@ -2122,7 +2120,7 @@ button:focus {
 }
 
 .meeting-img {
-  margin-bottom: 25px;
+  margin-bottom: 75px;
 }
 
 .permission-texts {
@@ -2151,9 +2149,15 @@ button:focus {
 }
 
 .permission-accent {
-  display: inline-block;
+  margin-bottom: 15px;
+  margin-top: 165px;
+}
+
+.permission-accent > h2 {
   font-size: 16px;
-  padding-bottom: 15px;
+}
+
+.permission-paragraph {
   margin-top: 15px;
 }
 
@@ -2170,12 +2174,12 @@ button:focus {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 768px) {
   .wrapper {
     flex-direction: row;
-    justify-content: space-around;
+    justify-items: right;
     align-items: center;
   }
 }
@@ -2190,7 +2194,8 @@ button:focus {
 @media screen and (min-width: 768px) {
   .perm-img-right {
     display: block;
-    max-width: 100%;
+    max-width: 360px;
+    margin-left: 50px;
   }
 }
 

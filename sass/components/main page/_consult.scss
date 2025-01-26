@@ -76,12 +76,10 @@
 .page-header-block{
     text-align: center;
     background-color: $alt-background-color;
-    margin-bottom: 15px;
     border-radius: 5px;
-    
+ 
     @media screen and (min-width: $desktop) {
-        max-width: 750px;
-        margin-left: 40%;;
+       max-width: 100%;
     }
 }
 
