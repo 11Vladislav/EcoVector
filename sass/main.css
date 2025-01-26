@@ -2162,6 +2162,7 @@ button:focus {
 
 .permission-accent > h2 {
   font-size: 16px;
+  margin-left: 25px;
 }
 @media screen and (min-width: 768px) {
   .permission-accent > h2 {
