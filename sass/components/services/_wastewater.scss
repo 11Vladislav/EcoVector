@@ -10,6 +10,8 @@
     margin: 25px 0;
 }
 
-.wastewater-gallery-item{
-    max-height: 265px;
+.wastewater-gallery>li{
+    @media screen and (min-width: $desktop) {
+     max-height: 265px;
+    }
 }

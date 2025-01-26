@@ -2243,6 +2243,8 @@ button:focus {
   margin: 25px 0;
 }
 
-.wastewater-gallery-item {
-  max-height: 265px;
+@media screen and (min-width: 768px) {
+  .wastewater-gallery > li {
+    max-height: 265px;
+  }
 }/*# sourceMappingURL=main.css.map */
