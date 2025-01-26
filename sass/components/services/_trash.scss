@@ -103,7 +103,9 @@
 }
 
 .trash-gallery-item{
+    @media screen and (min-width: $desktop) {
     max-height: 280px;
+    }
 }
 
 .third{
