@@ -75,7 +75,7 @@
 
 .page-header-block{
     text-align: center;
-    background-color: $alt-background-color;
+    background-color: $title-color;
     border-radius: 5px;
  
     @media screen and (min-width: $desktop) {
@@ -86,7 +86,7 @@
 .page-header-text{
     font-size: 20px;
     text-transform: uppercase;
-    color: $title-color;
+    color: $alt-text-color;
     padding: 10px;
     @media screen and (min-width: $desktop) {
         font-size: 25px;

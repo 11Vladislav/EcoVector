@@ -1230,7 +1230,7 @@ button:focus {
 
 .page-header-block {
   text-align: center;
-  background-color: #f8e2c9;
+  background-color: #6f491f;
   border-radius: 5px;
 }
 @media screen and (min-width: 768px) {
@@ -1242,7 +1242,7 @@ button:focus {
 .page-header-text {
   font-size: 20px;
   text-transform: uppercase;
-  color: #6f491f;
+  color: #fff;
   padding: 10px;
 }
 @media screen and (min-width: 768px) {
