@@ -854,6 +854,10 @@ template {
   }
 }
 
+.slider-link {
+  color: #fff;
+}
+
 #slide1 {
   background-image: url(../images/1-1.jpg);
 }
