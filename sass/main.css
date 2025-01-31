@@ -364,10 +364,22 @@ template {
   background-color: #745f4e;
 }
 
+.header-wrapper {
+  margin-left: auto;
+}
+
+.tel-number {
+  color: #fff;
+  margin-right: 25px;
+}
+.tel-number:hover, .tel-number:focus {
+  color: #538135;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .language-select {
   font-weight: 600;
   margin-top: 10px;
-  margin-left: auto;
   padding: 10px;
   font-size: 16px;
   background-color: transparent;
@@ -1360,7 +1372,8 @@ button:focus {
 }
 @media screen and (min-width: 768px) {
   .book-img {
-    margin-top: 0;
+    margin-top: -100px;
+    max-height: 377px;
   }
 }
 
