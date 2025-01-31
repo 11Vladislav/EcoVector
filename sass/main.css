@@ -1376,15 +1376,6 @@ button:focus {
   font-size: 700;
 }
 
-.book-img {
-  margin-top: 0;
-}
-@media screen and (min-width: 768px) {
-  .book-img {
-    margin-top: -100px;
-  }
-}
-
 .footer {
   display: block;
   background-color: #745f4e;
