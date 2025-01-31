@@ -102,16 +102,24 @@
 
 
 .header-wrapper{
+    display: flex;
+    align-items: baseline;
     margin-left: auto;
 }
 
+
 .tel-number{
-    color: $alt-text-color;
-    margin-right: 25px;
-    &:hover,
-    &:focus {
-        color: $heading-color;
-        transition: color $duration $timing-function;
+    display: none;
+    @media screen and (min-width: $desktop) {
+        display: block;
+        color: $alt-text-color;
+        margin-right: 25px;
+        margin-left: 25px;
+            &:hover,
+            &:focus {
+                color: $heading-color;
+                transition: color $duration $timing-function;
+        }
     }
 }
 
