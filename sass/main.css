@@ -294,6 +294,7 @@ template {
 @media screen and (min-width: 768px) {
   .nav__list {
     display: flex;
+    margin-left: 93px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.14;
@@ -304,16 +305,12 @@ template {
 
 .nav__item {
   display: block;
-  margin-left: 50px;
+  padding: 0 50px;
+  border-right: 2px solid #fff;
 }
 
 .nav__item:first-child {
-  margin-left: 88px;
-}
-@media screen and (min-width: 768px) {
-  .nav__item:first-child {
-    margin-left: 93px;
-  }
+  border-left: 2px solid #fff;
 }
 
 .nav__link {
@@ -778,7 +775,7 @@ template {
   height: 105px;
   border-radius: 10px;
   text-align: center;
-  background-color: #ffe8da;
+  background-color: #538135;
 }
 @media screen and (min-width: 768px) {
   .chart-item {
@@ -788,7 +785,7 @@ template {
 }
 
 .number {
-  color: #745f4e;
+  color: #fff;
   font-size: 30px;
   font-weight: 700;
 }
@@ -801,7 +798,7 @@ template {
 
 .descr {
   margin-top: 5px;
-  color: #6f491f;
+  color: #fff;
   font-size: 15px;
 }
 @media screen and (min-width: 768px) {
@@ -896,7 +893,7 @@ template {
 }
 
 #slide5 {
-  background-image: url(../images/4-3-1.png);
+  background-image: url(../images/4-3-3-mobile.png);
 }
 
 #slide6 {
@@ -917,7 +914,7 @@ template {
     background-image: url(../images/5-1-desktop.jpg);
   }
   #slide5 {
-    background-image: url(../images/4-2-desktop.jpg);
+    background-image: url(../images/4-3-2.png);
   }
   #slide6 {
     background-image: url(../images/5-3-2-1-desktop.jpg);

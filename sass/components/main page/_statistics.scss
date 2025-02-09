@@ -64,7 +64,7 @@
     height: 105px;
     border-radius: 10px;
     text-align: center;
-    background-color: $box-color;
+    background-color: $heading-color;
     @media screen and (min-width: $desktop) {
         width: 175px;
         height: 175px;
@@ -72,7 +72,7 @@
 }
 
 .number{
-    color: $main-color;
+    color: $alt-text-color;
     font-size: 30px;
     font-weight: 700;
     @media screen and (min-width: $desktop) {
@@ -83,7 +83,7 @@
 
 .descr{
     margin-top: 5px;
-    color: $title-color;
+    color: $alt-text-color;
     font-size: 15px;
     @media screen and (min-width: $desktop) {
             font-size: 22px;

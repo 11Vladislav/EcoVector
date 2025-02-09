@@ -27,6 +27,7 @@
   display: none;
   @media screen and (min-width: $desktop) {
     display: flex;
+    margin-left: 93px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.14;
@@ -37,16 +38,13 @@
 
 .nav__item{
     display: block;
-    margin-left: 50px;
+    padding: 0 50px;
+    border-right: 2px solid $alt-text-color;
 }
 
-.nav__item:first-child {
-    margin-left: 88px;
-
-    @media screen and (min-width: $desktop) {
-        margin-left: 93px;
-    }
-}    
+.nav__item:first-child{
+    border-left: 2px solid $alt-text-color;
+}
 
 .nav__link{
     position: relative;
