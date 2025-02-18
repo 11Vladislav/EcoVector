@@ -305,7 +305,7 @@ template {
 
 .nav__item {
   display: block;
-  padding: 0 50px;
+  padding: 0 30px;
   border-right: 2px solid #fff;
 }
 
@@ -775,7 +775,7 @@ template {
   height: 105px;
   border-radius: 10px;
   text-align: center;
-  background-color: #538135;
+  background-color: rgba(83, 129, 53, 0.7);
 }
 @media screen and (min-width: 768px) {
   .chart-item {
